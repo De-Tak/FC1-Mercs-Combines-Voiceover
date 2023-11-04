@@ -1,0 +1,1930 @@
+// HALF-LIFE 2 SPEECH SYSTEM SENTENCES.
+// Do not use TABS.  Separate sentence-names from wave definitions with single spaces only.
+// Sounds prefixed by "Q_" will be queued up for a while and played as soon as the NPC is allowed to speak
+
+
+//CHARACTER SECTION
+
+
+
+
+
+
+//COMBINE SOLDIER
+
+// COMBINE SOLDIER
+
+// V_ indicates 'virtual' name or number
+// last letter indicates type: 'S' = soldier
+
+// soldier names, remembered by speaker:
+
+V_MYNAMES0 leader {Len 0.4}
+V_MYNAMES1 flash {Len 0.4}
+V_MYNAMES2 ranger {Len 0.4}
+V_MYNAMES3 hunter {Len 0.4}
+V_MYNAMES4 blade {Len 0.4}
+V_MYNAMES5 scar {Len 0.4}
+V_MYNAMES6 hammer {Len 0.4}
+V_MYNAMES7 sweeper {Len 0.4}
+V_MYNAMES8 swift {Len 0.4}
+V_MYNAMES9 fist {Len 0.4}
+V_MYNAMES10 sword {Len 0.4}
+V_MYNAMES11 savage {Len 0.4}
+V_MYNAMES12 tracker {Len 0.4}
+V_MYNAMES13 slash {Len 0.4}
+V_MYNAMES14 razor {Len 0.4}
+V_MYNAMES15 stab {Len 0.4}
+V_MYNAMES16 spear {Len 0.4}
+V_MYNAMES17 striker {Len 0.4}
+V_MYNAMES18 dagger {Len 0.4}
+
+// air support names:
+
+V_RNDNAMES0 ghost {Len 0.4}
+V_RNDNAMES1 reaper {Len 0.4}
+V_RNDNAMES2 nomad {Len 0.4}
+V_RNDNAMES3 hurricane {Len 0.4}
+V_RNDNAMES4 phantom {Len 0.4}
+V_RNDNAMES5 judge {Len 0.4}
+V_RNDNAMES6 shadow {Len 0.4}
+V_RNDNAMES7 slam {Len 0.4}
+V_RNDNAMES8 stinger {Len 0.4}
+V_RNDNAMES9 storm {Len 0.4}
+V_RNDNAMES10 vamp {Len 0.4}
+V_RNDNAMES11 winder {Len 0.4}
+V_RNDNAMES12 star {Len 0.4}  
+
+//phonetic alphabet/codes:
+
+V_RNDCODES0 apex {Len 0.4}
+V_RNDCODES1 ion {Len 0.4}
+V_RNDCODES2 jet {Len 0.4}
+V_RNDCODES3 kilo {Len 0.4}
+V_RNDCODES4 mace {Len 0.4}
+V_RNDCODES5 nova {Len 0.4}
+V_RNDCODES6 payback {Len 0.4}
+V_RNDCODES7 sundown {Len 0.4}
+V_RNDCODES8 uniform {Len 0.4}
+V_RNDCODES9 boomer {Len 0.4}
+V_RNDCODES10 echo {Len 0.4}
+V_RNDCODES11 flatline {Len 0.4}
+V_RNDCODES12 helix {Len 0.4}
+V_RNDCODES13 ice {Len 0.4}
+V_RNDCODES14 quicksand {Len 0.4}
+V_RNDCODES15 payback {Len 0.4}
+V_RNDCODES16 ripcord {Len 0.4}
+
+//Numbers, remembered by speaker:
+
+V_MYNUMS0 zero {Len 0.4}
+V_MYNUMS1 one {Len 0.4}
+V_MYNUMS2 two {Len 0.4}
+V_MYNUMS3 three {Len 0.4}
+V_MYNUMS4 four {Len 0.4}
+V_MYNUMS5 five {Len 0.4}
+V_MYNUMS6 six {Len 0.4}
+V_MYNUMS7 seven {Len 0.4}
+V_MYNUMS8 eight {Len 0.4}
+V_MYNUMS9 niner {Len 0.4}
+
+// random numbers
+
+V_RNDNUMS0 zero {Len 0.4}
+V_RNDNUMS1 one {Len 0.4}
+V_RNDNUMS2 two {Len 0.4}
+V_RNDNUMS3 three {Len 0.4}
+V_RNDNUMS4 four {Len 0.4}
+V_RNDNUMS5 five {Len 0.4}
+V_RNDNUMS6 six {Len 0.4}
+V_RNDNUMS7 seven {Len 0.4}
+V_RNDNUMS8 eight {Len 0.4}
+V_RNDNUMS9 niner {Len 0.4}
+
+// numbers, must be in order, used for distance/heading to player use: V_DISTS or V_DIRS
+
+V_NUMBERSS0 zero {Len 0.4}
+V_NUMBERSS1 one {Len 0.4}
+V_NUMBERSS2 two {Len 0.4}
+V_NUMBERSS3 three {Len 0.4}
+V_NUMBERSS4 four {Len 0.4}
+V_NUMBERSS5 five {Len 0.4}
+V_NUMBERSS6 six {Len 0.4}
+V_NUMBERSS7 seven {Len 0.4}
+V_NUMBERSS8 eight {Len 0.4}
+V_NUMBERSS9 niner {Len 0.4}
+V_NUMBERSS10 ten {Len 0.4}
+V_NUMBERSS11 eleven {Len 0.4}
+V_NUMBERSS12 twelve {Len 0.4}
+V_NUMBERSS13 thirteen {Len 0.4}
+V_NUMBERSS14 fourteen {Len 0.4}
+V_NUMBERSS15 fifteen {Len 0.4}
+V_NUMBERSS16 sixteen {Len 0.4}
+V_NUMBERSS17 seventeen {Len 0.4}
+V_NUMBERSS18 eighteen {Len 0.4}
+V_NUMBERSS19 nineteen {Len 0.4}
+V_NUMBERSS20 twenty {Len 0.4}
+V_NUMBERSS21 thirty {Len 0.4}
+V_NUMBERSS22 fourty {Len 0.4}
+V_NUMBERSS23 fifty {Len 0.4}
+V_NUMBERSS24 sixty {Len 0.4}
+V_NUMBERSS25 seventy {Len 0.4}
+V_NUMBERSS26 eighty {Len 0.4}
+V_NUMBERSS27 ninety {Len 0.4}
+V_NUMBERSS28 onehundred {Len 0.4}
+V_NUMBERSS29 twohundred {Len 0.4}
+V_NUMBERSS30 threehundred {Len 0.4}
+
+// rnd global, used to designate target
+
+V_G0_PLAYERS0 freeman3 {len 0.5}
+V_G0_PLAYERS1 anticitizenone {len 0.5}
+V_G0_PLAYERS2 targetone {len 0.5}
+V_G0_PLAYERS3 priority1objective {len 0.5}
+V_G0_PLAYERS4 phantom {len 0.5}
+V_G0_PLAYERS5 ghost2 {len 0.5}
+
+// sequential gobal numbers, used for counting enemies down
+
+V_SEQGLOBNBRS0 zero {Len 0.4}
+V_SEQGLOBNBRS1 one {Len 0.4}
+V_SEQGLOBNBRS2 two {Len 0.4}
+V_SEQGLOBNBRS3 three {Len 0.4}
+V_SEQGLOBNBRS4 four {Len 0.4}
+V_SEQGLOBNBRS5 five {Len 0.4}
+V_SEQGLOBNBRS6 six {Len 0.4}
+V_SEQGLOBNBRS7 seven {Len 0.4}
+V_SEQGLOBNBRS8 eight {Len 0.4}
+V_SEQGLOBNBRS9 niner {Len 0.4}
+V_SEQGLOBNBRS10 ten {Len 0.4}
+V_SEQGLOBNBRS11 eleven {Len 0.4}
+V_SEQGLOBNBRS12 twelve {Len 0.4}
+V_SEQGLOBNBRS13 thirteen {Len 0.4}
+V_SEQGLOBNBRS14 fourteen {Len 0.4}
+V_SEQGLOBNBRS15 fifteen {Len 0.4}
+V_SEQGLOBNBRS16 sixteen {Len 0.4}
+V_SEQGLOBNBRS17 seventeen {Len 0.4}
+V_SEQGLOBNBRS18 eighteen {Len 0.4}
+V_SEQGLOBNBRS19 nineteen {Len 0.4}
+V_SEQGLOBNBRS20 twenty {Len 0.4}
+
+
+//PAIN
+COMBINE_PAIN0 tak/combine/getting_damage/pain/(v70) pain1 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN1 tak/combine/getting_damage/pain/(v70) pain2 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN2 tak/combine/getting_damage/pain/(v70) pain3 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN3 tak/combine/getting_damage/pain/(v70) pain4 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN4 tak/combine/getting_damage/pain/(v70) pain5 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN5 tak/combine/getting_damage/pain/(v70) pain6 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN6 tak/combine/getting_damage/pain/(v70) pain7 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN7 tak/combine/getting_damage/pain/(v70) pain8 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN8 tak/combine/getting_damage/pain/(v70) pain9 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN9 tak/combine/getting_damage/pain/(v70) pain10 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN10 tak/combine/getting_damage/pain/(v70) pain11 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN11 tak/combine/getting_damage/pain/(v70) pain12 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN12 tak/combine/getting_damage/pain/(v70) pain13 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN13 tak/combine/getting_damage/pain/(v70) pain14 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN14 tak/combine/getting_damage/pain/(v70) pain15 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN15 tak/combine/getting_damage/pain/(v70) pain16 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN16 tak/combine/getting_damage/pain/(v70) pain17 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN17 tak/combine/getting_damage/pain/(v70) pain18 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN18 tak/combine/getting_damage/pain/(v70) pain19 {Len 0.30 closecaption NPC_Combine.Pain}
+COMBINE_PAIN19 tak/combine/getting_damage/pain/(v70) pain20 {Len 0.30 closecaption NPC_Combine.Pain}
+
+//DIE
+COMBINE_DIE0 tak/combine/getting_damage/death/(v100) death1 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE1 tak/combine/getting_damage/death/(v100) death2 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE2 tak/combine/getting_damage/death/(v100) death3 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE3 tak/combine/getting_damage/death/(v100) death4 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE4 tak/combine/getting_damage/death/(v100) death5 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE5 tak/combine/getting_damage/death/(v100) death6 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE6 tak/combine/getting_damage/death/(v100) death7 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE7 tak/combine/getting_damage/death/(v100) death8 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE8 tak/combine/getting_damage/death/(v100) death9 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE9 tak/combine/getting_damage/death/(v100) death10 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE10 tak/combine/getting_damage/death/(v100) death11 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE11 tak/combine/getting_damage/death/(v100) death12 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE12 tak/combine/getting_damage/death/(v100) death13 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE13 tak/combine/getting_damage/death/(v100) death14 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE14 tak/combine/getting_damage/death/(v100) death15 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE15 tak/combine/getting_damage/death/(v100) death16 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE16 tak/combine/getting_damage/death/(v100) death17 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE17 tak/combine/getting_damage/death/(v100) death18 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE18 tak/combine/getting_damage/death/(v100) death19 {Len 0.75 closecaption NPC_Combine.Death}
+COMBINE_DIE19 tak/combine/getting_damage/death/(v100) death20 {Len 0.75 closecaption NPC_Combine.Death}
+
+
+//KICK
+COMBINE_KICK0 npc/combine_soldier/(v100) kick1 {Len 0.26}
+COMBINE_KICK1 npc/combine_soldier/(v100) kick2 {Len 0.31}
+
+
+// I am about to start shooting
+// Marc, for any sentences you want to caption, just add the closecaption entry to the {Len} block as below
+// COMBINE_ANNOUNCE0 npc/combine_soldier/vo/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption}
+// To use a specified caption string, put it's name in there, too
+// COMBINE_ANNOUNCE0 npc/combine_soldier/vo/(v100) on1 V_MYNAMES V_MYNUMS suppressing off1 {Len 0.96 closecaption NPCSound.Caption}
+
+COMBINE_ANNOUNCE0 tak/combine/combat/combat1 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE1 tak/combine/combat/combat_group/combat_group12 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE2 tak/combine/combat/combat_group/combat_group11 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE3 tak/combine/combat/combat8 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE4 tak/combine/combat/combat9 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE5 tak/combine/combat/combat10 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE6 tak/combine/combat/combat11 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE7 tak/combine/combat/combat13 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE8 tak/combine/combat/combat14 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE9 tak/combine/combat/combat16 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE10 tak/combine/combat/combat17 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE11 tak/combine/combat/combat18 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE12 tak/combine/combat/combat19 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE13 tak/combine/combat/combat_group/combat_group10 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE14 tak/combine/combat/combat22 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE15 tak/combine/combat/combat23 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE16 tak/combine/combat/combat_group/combat_group7 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE17 tak/combine/combat/combat_group/combat_group6 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE18 tak/combine/combat/combat_group/combat_group5 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE19 tak/combine/combat/combat27 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE20 tak/combine/combat/combat29 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE21 tak/combine/combat/combat_group/combat_group2 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE22 tak/combine/combat/combat_group/combat_group19 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE23 tak/combine/combat/combat33 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE24 tak/combine/combat/combat42 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE25 tak/combine/combat/combat45 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE26 tak/combine/combat/combat36 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE27 tak/combine/combat/combat43 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ANNOUNCE28 tak/combine/combat/combat40 {Len 1.2 closecaption NPC_Combine.Alert}
+
+// My enemy is close and I can see him
+
+COMBINE_ASSAULT0 tak/combine/combat/combat2 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT1 tak/combine/combat/combat3 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT2 tak/combine/combat/combat15 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT3 tak/combine/combat/combat20 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT4 tak/combine/combat/combat24 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT5 tak/combine/combat/combat25 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT6 tak/combine/combat/combat26 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT7 tak/combine/combat/combat30 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT8 tak/combine/combat/combat37 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT9 tak/combine/combat/combat39 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT10 tak/combine/combat/combat44 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT11 tak/combine/combat/combat_group/combat_group4 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT12 tak/combine/combat/combat_group/combat_group8 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT13 tak/combine/combat/combat_group/combat_group14 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT14 tak/combine/combat/combat_group/combat_group17 {Len 1.2 closecaption NPC_Combine.Alert}
+COMBINE_ASSAULT15 tak/combine/combat/combat_group/combat_group18 {Len 1.2 closecaption NPC_Combine.Alert}
+
+// I am moving in
+
+COMBINE_FLANK0 tak/combine/combat/combat28 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK1 tak/combine/combat/combat38 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK2 tak/combine/commandeer/left3 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK3 tak/combine/commandeer/left6 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK4 tak/combine/commandeer/right3 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK5 tak/combine/commandeer/right6 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK6 tak/combine/commandeer/supress4 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK7 tak/combine/commandeer/supress6 {Len 1.36 closecaption NPC_Combine.Coord}
+COMBINE_FLANK7 tak/combine/foundenemy/foundyou14 {Len 1.36 closecaption NPC_Combine.Coord}
+
+
+// I am still alert and pursuing enemy
+
+COMBINE_GO_ALERT0 tak/combine/backup/needbackup1 {Len 0.77 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT1 tak/combine/backup/needbackup2 {Len 0.77 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT2 tak/combine/backup/needbackup3 {Len 0.77 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT3 tak/combine/backup/needbackup4 {Len 0.77 closecaption NPC_Combine.Coord}
+COMBINE_GO_ALERT4 tak/combine/backup/needbackup5 {Len 0.77 closecaption NPC_Combine.Coord}
+
+// UNDONE: Nobody has seen enemy in 10 seconds
+
+COMBINE_LOST_LONG0 tak/combine/enemyhiding/enemyhiding6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG1 tak/combine/enemyhiding/enemyhiding11 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG2 tak/combine/enemyhiding/enemyhiding_gr/enemyhiding17 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG3 tak/combine/enemyhiding/enemyhiding13 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG4 tak/combine/enemyhiding/enemyhiding15 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG5 tak/combine/enemyhiding/enemyhiding_gr/enemyhiding18 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG6 tak/combine/enemyhiding/enemyhiding8 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG7 tak/combine/enemyhiding/enemyhiding_gr/enemyhiding19 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG8 tak/combine/enemyhiding/enemyhiding_gr/enemyhiding20 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG9 tak/combine/enemyhiding/enemyhiding_gr/enemyhiding21 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG10 tak/combine/searching/search1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG11 tak/combine/searching/search2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG12 tak/combine/searching/search3 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG13 tak/combine/searching/search4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG14 tak/combine/searching/search5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG15 tak/combine/searching/search6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG16 tak/combine/searching/search7 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG17 tak/combine/searching/searchp2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG18 tak/combine/searching/searchp5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG19 tak/combine/searching/searchp6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_LONG20 tak/combine/searching/searchm5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+
+// UNDONE: Nobody has seen enemy in 5 seconds
+
+COMBINE_LOST_SHORT0 tak/combine/enemyhiding/enemyhiding1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT1 tak/combine/enemyhiding/enemyhiding2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT2 tak/combine/enemyhiding/enemyhiding3 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT3 tak/combine/enemyhiding/enemyhiding4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT4 tak/combine/enemyhiding/enemyhiding5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT5 tak/combine/enemyhiding/enemyhiding9 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT6 tak/combine/enemyhiding/enemyhiding10 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT7 tak/combine/enemyhiding/enemyhiding14 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT8 tak/combine/enemyhiding/enemyhiding16 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_LOST_SHORT9 tak/combine/enemyhiding/enemyhiding12 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+
+// I just saw a friendly die
+
+COMBINE_MAN_DOWN0 tak/combine/wehavecasualties/mandown1 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN1 tak/combine/wehavecasualties/mandown2 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN2 tak/combine/wehavecasualties/mandown3 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN3 tak/combine/wehavecasualties/mandown4 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN4 tak/combine/wehavecasualties/mandown5 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN5 tak/combine/wehavecasualties/mandown6 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN6 tak/combine/wehavecasualties/mandown7 {Len 1.4 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN7 tak/combine/combat/combat4 {Len 1.36 closecaption NPC_Combine.Alert}
+COMBINE_MAN_DOWN8 tak/combine/combat/combat_group/combat_group16 {Len 1.36 closecaption NPC_Combine.Alert}
+
+// UNDONE: Just found enemy after lost long
+
+COMBINE_REFIND_ENEMY0 tak/combine/foundenemy/foundyou8 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY1 tak/combine/foundenemy/foundyou10 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY2 tak/combine/foundenemy/foundyou15 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY3 tak/combine/foundenemy/foundyou16 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY4 tak/combine/foundenemy/foundenemy_ingroup/foundyou17 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY5 tak/combine/foundenemy/foundenemy_ingroup/foundyou20 {Len 1.3 closecaption NPC_Combine.Alert}
+COMBINE_REFIND_ENEMY6 tak/combine/foundenemy/foundyou1 {Len 1.3 closecaption NPC_Combine.Alert}
+
+// I am throwing a grenade
+
+COMBINE_THROW_GRENADE0 tak/combine/grenade/grenade_throw1 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE1 tak/combine/grenade/grenade_throw3 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE2 tak/combine/grenade/grenade_throw5 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE3 tak/combine/grenade/grenade_throw7 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_THROW_GRENADE4 tak/combine/grenade/grenade_throw9 {Len 1.31 closecaption NPC_Combine.Grenade}
+
+// Enemy Grenade lands nearby (one man only)
+
+COMBINE_GREN0 tak/combine/grenade/grenade_throw2 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_GREN1 tak/combine/grenade/grenade_throw4 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_GREN2 tak/combine/grenade/grenade_throw6 {Len 1.31 closecaption NPC_Combine.Grenade}
+COMBINE_GREN3 tak/combine/grenade/grenade_throw8 {Len 1.31 closecaption NPC_Combine.Grenade}
+ 
+// Something dangerous nearby, need to run
+
+COMBINE_DANGER0 tak/combine/combat/underfire/underfiregr1 {Len 1.17}
+COMBINE_DANGER1 tak/combine/combat/underfire/underfiregr2 {Len 1.17}
+COMBINE_DANGER2 tak/combine/combat/underfire/underfiregr3 {Len 1.17}
+COMBINE_DANGER3 tak/combine/combat/underfire/underfiregr6 {Len 1.17}
+COMBINE_DANGER4 tak/combine/commandeer/retreat1 {Len 1.17}
+COMBINE_DANGER5 tak/combine/commandeer/retreat2 {Len 1.17}
+
+// Player Alert - first contact and I'm the squad leader
+
+COMBINE_ALERT0 tak/combine/foundenemy/foundyou2 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT1 tak/combine/foundenemy/foundyou3 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT2 tak/combine/foundenemy/foundyou5 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT3 tak/combine/foundenemy/foundyou7 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT4 tak/combine/foundenemy/foundyou9 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT5 tak/combine/foundenemy/foundyou11 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT6 tak/combine/foundenemy/foundyou12 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT7 tak/combine/foundenemy/foundyou13 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT8 tak/combine/foundenemy/foundenemy_ingroup/foundyou18 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT9 tak/combine/foundenemy/foundenemy_ingroup/foundyou19 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT10 tak/combine/foundenemy/foundenemy_ingroup/foundyou21 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT11 tak/combine/foundenemy/sighted_yelling/sightedyell1 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT12 tak/combine/foundenemy/sighted_yelling/sightedyell2 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT13 tak/combine/foundenemy/sighted_yelling/sightedyell4 {Len 1.13 closecaption NPC_Combine.Alert}
+COMBINE_ALERT14 tak/combine/foundenemy/sighted_yelling/sightedyell7 {Len 1.13 closecaption NPC_Combine.Alert}
+
+// last soldier's hit damaged player significantly
+
+COMBINE_PLAYERHIT0 tak/combine/combat/combat_group/combat_group3 {Len 1.13}
+COMBINE_PLAYERHIT1 tak/combine/combat/combat_group/combat_group20 {Len 1.13}
+COMBINE_PLAYERHIT2 tak/combine/combat/combat3 {Len 1.13}
+COMBINE_PLAYERHIT3 tak/combine/combat/combat7 {Len 1.13}
+COMBINE_PLAYERHIT4 tak/combine/combat/combat21 {Len 1.13}
+COMBINE_PLAYERHIT5 tak/combine/combat/combat24 {Len 1.13}
+COMBINE_PLAYERHIT6 tak/combine/combat/combat32 {Len 1.13}
+COMBINE_PLAYERHIT7 tak/combine/combat/combat34 {Len 1.13}
+COMBINE_PLAYERHIT8 tak/combine/combat/combat35 {Len 1.13}
+COMBINE_PLAYERHIT9 tak/combine/combat/combat41 {Len 1.13}
+COMBINE_PLAYERHIT10 tak/combine/combat/combat_group/combat_group11 {Len 1.13}
+
+// Monster Alert - first contact and I'm the squad leader
+
+COMBINE_MONST0 tak/combine/foundenemy/foundenemy_ingroup/foundyou22 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST1 tak/combine/foundenemy/lets_go/letsgo1 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST2 tak/combine/foundenemy/lets_go/letsgo2 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST3 tak/combine/foundenemy/lets_go/letsgo4 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST4 tak/combine/foundenemy/lets_go/letsgo5 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST5 tak/combine/foundenemy/lets_go/letsgo6 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// Monster Alert - by type
+
+COMBINE_MONST_BUGS0 tak/combine/foundenemy/foundenemy_ingroup/foundyou22 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_BUGS1 tak/combine/foundenemy/foundenemy_ingroup/foundyou22 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CITIZENS0 tak/combine/foundenemy/foundyou2 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS1 tak/combine/foundenemy/foundyou7 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS2 tak/combine/foundenemy/foundyou9 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS3 tak/combine/foundenemy/foundyou13 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS4 tak/combine/sighted_yelling/sightedyell6 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS5 tak/combine/sighted_yelling/sightedyell8 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS6 tak/combine/alarm/alarm6 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS7 tak/combine/alarm/alarm7 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CITIZENS8 tak/combine/combat/underfire/underfiregr5 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_CHARACTER0 tak/combine/foundenemy/foundyou3 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER1 tak/combine/foundenemy/foundyou4 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER2 tak/combine/foundenemy/foundyou11 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER3 tak/combine/foundenemy/foundyou12 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER4 tak/combine/alarm/alarm3 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_CHARACTER5 tak/combine/alarm/alarm4 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_ZOMBIES0 tak/combine/foundenemy/foundenemy_ingroup/foundyou22 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES1 tak/combine/alarm/alarm5 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES2 tak/combine/alarm/(v100) alarm1 alarm2 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_ZOMBIES3 tak/combine/wehavecasualties/mandown1 {Len 1.72 closecaption NPC_Combine.Alert}
+
+COMBINE_MONST_PARASITES0 tak/combine/foundenemy/foundenemy_ingroup/foundyou22 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES1 tak/combine/getting_damage/fear/feary7 {Len 1.72 closecaption NPC_Combine.Alert}
+COMBINE_MONST_PARASITES2 tak/combine/getting_damage/fear/feary8 {Len 1.72 closecaption NPC_Combine.Alert}
+
+// I killed a monster
+
+COMBINE_KILL_MONST0 tak/combine/getting_damage/yelling1 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST1 tak/combine/getting_damage/yelling4 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST2 tak/combine/getting_damage/yelling5 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+COMBINE_KILL_MONST3 tak/combine/combat/combat_group/combat_group3 {Len 1.72 closecaption NPC_Combine.RadioChatter}
+
+// I was hit and it hurt. I'm taking cover (commented out in code)
+
+COMBINE_COVER0 tak/combine/combat/underfire/painhigh1 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER1 tak/combine/combat/underfire/painhigh4 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER2 tak/combine/combat/underfire/painhigh8 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER3 tak/combine/combat/underfire/painhigh9 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER4 tak/combine/combat/underfire/painhigh10 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER5 tak/combine/combat/underfire/painhigh12 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER6 tak/combine/combat/underfire/painhigh13 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER7 tak/combine/getting_damage/flashbanged/flashbang4 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER8 tak/combine/getting_damage/flashbanged/flashbang5 {Len 0.95  closecaption NPC_Combine.Coord}
+COMBINE_COVER9 tak/combine/getting_damage/flashbanged/flashbang6 {Len 0.95  closecaption NPC_Combine.Coord}
+
+// I took damage but it didn't hurt much (commented out in code)
+
+COMBINE_TAUNT0 tak/combine/combat/underfire/painhigh11 {Len 1.32}
+COMBINE_TAUNT1 tak/combine/combat/underfire/painhigh3 {Len 1.32}
+COMBINE_TAUNT2 tak/combine/combat/underfire/painhigh5 {Len 1.32}
+COMBINE_TAUNT3 tak/combine/combat/underfire/painhigh6 {Len 1.32}
+COMBINE_TAUNT4 tak/combine/combat/underfire/painhigh7 {Len 1.32}
+
+// I'm the last guy in the squad
+
+COMBINE_LAST_OF_SQUAD0 tak/combine/combat/combat5 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD1 tak/combine/combat/combat6 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD2 tak/combine/combat/combat12 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD3 tak/combine/combat/combat15 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD4 tak/combine/combat/combat26 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD5 tak/combine/combat/combat31 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD6 tak/combine/combat/combat45 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD7 tak/combine/combat/combat_group/combat_group13 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD8 tak/combine/combat/combat_group/combat_group17 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD9 tak/combine/combat/combat_group/combat_group20 {len 1.5 closecaption NPC_Combine.Last}
+COMBINE_LAST_OF_SQUAD10 tak/combine/combat/underfire/painhigh2 {len 1.5 closecaption NPC_Combine.Last}
+
+// player is dead
+
+COMBINE_PLAYER_DEAD0 tak/combine/combat/combat_group/combat_group20 {Len 0.82}
+COMBINE_PLAYER_DEAD1 tak/combine/combat/combat_group/combat_group3 {Len 1.87}
+COMBINE_PLAYER_DEAD2 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax17 {Len 1.87}
+COMBINE_PLAYER_DEAD3 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax21 {Len 1.87}
+COMBINE_PLAYER_DEAD4 tak/combine/combat/combat7 {Len 1.32}
+COMBINE_PLAYER_DEAD5 tak/combine/combat/combat10 {Len 1.32}
+COMBINE_PLAYER_DEAD6 tak/combine/combat/combat13 {Len 1.32}
+COMBINE_PLAYER_DEAD7 tak/combine/combat/combat19 {Len 1.32}
+COMBINE_PLAYER_DEAD7 tak/combine/combat/combat22 {Len 1.32}
+COMBINE_PLAYER_DEAD7 tak/combine/combat/combat27 {Len 1.32}
+COMBINE_PLAYER_DEAD7 tak/combine/combat/combat41 {Len 1.32}
+
+// Idle statement - my status, no enemy
+
+COMBINE_IDLE0 tak/combine/idle/idle1 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE1 tak/combine/idle/idle2 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE2 tak/combine/idle/idle3 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE3 tak/combine/idle/idle4 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE4 tak/combine/idle/idle5 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE5 tak/combine/idle/idle6 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE6 tak/combine/idle/idle7 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE7 tak/combine/idle/idle8 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE8 tak/combine/idle/idle9 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE9 tak/combine/idle/idle10 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE10 tak/combine/idle/idle11 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE11 tak/combine/idle/idle12 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE12 tak/combine/idle/idle13 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE13 tak/combine/idle/idle14 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE14 tak/combine/idle/idle15 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE15 tak/combine/idle/idle16 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE16 tak/combine/idle/idle17 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE17 tak/combine/idle/idle18 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE18 tak/combine/idle/idle19 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE19 tak/combine/idle/idle20 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE20 tak/combine/idle/idle21 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE21 tak/combine/alert/alert1 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE22 tak/combine/alert/alert2 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE23 tak/combine/alert/alert3 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE24 tak/combine/alert/alert4 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE25 tak/combine/alert/alert5 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE26 tak/combine/alert/alert6 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE27 tak/combine/alert/alert8 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE28 tak/combine/alert/hear/alert13 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE29 tak/combine/alert/hear/alert14 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE30 tak/combine/alert/hear/alert15 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE31 tak/combine/alert/hear/alert16 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+COMBINE_IDLE32 tak/combine/alert/seen-group/alert21 {Len 1.0 closecaption NPC_Combine.RadioChatter}
+
+// I'm asking a question while idle, which may be answered with affirmative
+
+COMBINE_QUEST0 tak/combine/needsomething/needagun1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST1 tak/combine/needsomething/needagun2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST2 tak/combine/needsomething/needagun3 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST3 tak/combine/needsomething/needagun4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST4 tak/combine/needsomething/needsomeammo1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST5 tak/combine/needsomething/noammo1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST6 tak/combine/needsomething/noammo4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST7 tak/combine/needsomething/noammo5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+COMBINE_QUEST8 tak/combine/needsomething/noammo6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+
+// Answering affirmative
+
+COMBINE_ANSWER0 tak/combine/affirmative/affirmative1 {Len 1.57}
+COMBINE_ANSWER1 tak/combine/affirmative/affirmative2 {Len 1.57}
+COMBINE_ANSWER2 tak/combine/affirmative/affirmative3 {Len 1.57}
+COMBINE_ANSWER3 tak/combine/affirmative/affirmative4 {Len 1.57}
+COMBINE_ANSWER4 tak/combine/affirmative/affirmative5 {Len 1.57}
+COMBINE_ANSWER5 tak/combine/affirmative/affirmative6 {Len 1.57}
+COMBINE_ANSWER6 tak/combine/affirmative/affirmative7 {Len 1.57}
+COMBINE_ANSWER7 tak/combine/affirmative/affirmative8 {Len 1.57}
+COMBINE_ANSWER8 tak/combine/affirmative/affirmative9 {Len 1.57}
+COMBINE_ANSWER9 tak/combine/affirmative/affirmative10 {Len 1.57}
+
+// Answering all clear
+
+COMBINE_CLEAR0 tak/combine/noonehere_relax/noonehererelax1 {Len 2.30}
+COMBINE_CLEAR1 tak/combine/noonehere_relax/noonehererelax2 {Len 2.30}
+COMBINE_CLEAR2 tak/combine/noonehere_relax/noonehererelax3 {Len 2.30}
+COMBINE_CLEAR3 tak/combine/noonehere_relax/noonehererelax4 {Len 2.30}
+COMBINE_CLEAR4 tak/combine/noonehere_relax/noonehererelax5 {Len 2.30}
+COMBINE_CLEAR5 tak/combine/noonehere_relax/noonehererelax6 {Len 2.30}
+COMBINE_CLEAR6 tak/combine/noonehere_relax/noonehererelax7 {Len 2.30}
+COMBINE_CLEAR7 tak/combine/noonehere_relax/noonehererelax8 {Len 2.30}
+COMBINE_CLEAR8 tak/combine/noonehere_relax/noonehererelax9 {Len 2.30}
+COMBINE_CLEAR9 tak/combine/noonehere_relax/noonehererelax10 {Len 2.30}
+COMBINE_CLEAR10 tak/combine/noonehere_relax/noonehererelax11 {Len 2.30}
+COMBINE_CLEAR11 tak/combine/noonehere_relax/noonehererelax12 {Len 2.30}
+COMBINE_CLEAR12 tak/combine/noonehere_relax/noonehererelax13 {Len 2.30}
+COMBINE_CLEAR13 tak/combine/noonehere_relax/noonehererelax14 {Len 2.30}
+COMBINE_CLEAR14 tak/combine/noonehere_relax/noonehererelax15 {Len 2.30}
+COMBINE_CLEAR15 tak/combine/noonehere_relax/noonehererelax16 {Len 2.30}
+COMBINE_CLEAR16 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax17 {Len 2.30}
+COMBINE_CLEAR17 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax18 {Len 2.30}
+COMBINE_CLEAR18 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax19 {Len 2.30}
+COMBINE_CLEAR19 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax20 {Len 2.30}
+COMBINE_CLEAR20 tak/combine/noonehere_relax/noonehere_relax_group/noonehererelax21 {Len 2.30}
+
+// Questioning if all clear
+
+COMBINE_CHECK0 tak/combine/alert/alert7 {Len 1.63}
+COMBINE_CHECK1 tak/combine/alert/alert9 {Len 1.63}
+COMBINE_CHECK2 tak/combine/alert/alert10 {Len 1.63}
+COMBINE_CHECK3 tak/combine/alert/alert11 {Len 1.63}
+COMBINE_CHECK4 tak/combine/alert/hear/alert12 {Len 1.63}
+COMBINE_CHECK5 tak/combine/alert/hear-group/alert17 {Len 1.63}
+COMBINE_CHECK6 tak/combine/alert/hear-group/alert18 {Len 1.63}
+COMBINE_CHECK7 tak/combine/alert/hear-group/alert19 {Len 1.63}
+COMBINE_CHECK8 tak/combine/alert/hear-group/alert20 {Len 1.63}
+COMBINE_CHECK9 tak/combine/alert/seen-group/alert_seen_group1 {Len 1.63}
+COMBINE_CHECK10 tak/combine/alert/seen-group/alert_seen_group2 {Len 1.63}
+COMBINE_CHECK11 tak/combine/alert/seen-group/alert_seen_group3 {Len 1.63}
+COMBINE_CHECK12 tak/combine/alert/seen-group/alert22 {Len 1.63}
+COMBINE_CHECK13 tak/combine/alert/seen-group/alert23 {Len 1.63}
+COMBINE_CHECK14 tak/combine/alert/seen-group/alert24 {Len 1.63}
+COMBINE_CHECK15 tak/combine/alert/seen-group/alert25 {Len 1.63}
+
+
+//-----------------------------------------------------------------------------
+// METROPOLICE STARTS HERE
+//-----------------------------------------------------------------------------
+
+// hl2 map names - 24 names max
+
+V_MAPNAME0 default
+V_MAPNAME1 trainstation
+V_MAPNAME2 canals
+V_MAPNAME3 eli
+V_MAPNAME4 town
+V_MAPNAME5 coast
+V_MAPNAME6 prison
+V_MAPNAME7 c17
+V_MAPNAME8 citadel
+
+// _MAP__ substring in word in sentence is replaced with _MAPxx where xx is mapnumber
+
+// location prefix by mapname (remembered) (duplicated for metropolice and overwatch)
+
+// map 0 default
+V_G1_LOCATION_MAP00P0 block
+V_G1_LOCATION_MAP00P1 zone
+V_G1_LOCATION_MAP00P2 sector
+
+// map 1 trainstation
+V_G1_LOCATION_MAP01P0 stationblock
+V_G1_LOCATION_MAP01P1 transitblock
+V_G1_LOCATION_MAP01P2 workforceintake
+
+// map 2 canals
+V_G1_LOCATION_MAP02P0 canalblock
+V_G1_LOCATION_MAP02P1 stormsystem
+V_G1_LOCATION_MAP02P2 wasteriver
+V_G1_LOCATION_MAP02P3 deservicedarea
+
+// map 3 eli
+V_G1_LOCATION_MAP03P0 industrialzone
+V_G1_LOCATION_MAP03P1 restrictedblock
+V_G1_LOCATION_MAP03P2 repurposedarea
+
+// map 4 town
+V_G1_LOCATION_MAP04P0 condemnedzone
+V_G1_LOCATION_MAP04P1 infestedzone
+V_G1_LOCATION_MAP04P2 nonpatrolregion
+
+// map 5 coast
+V_G1_LOCATION_MAP05P0 externaljurisdiction
+V_G1_LOCATION_MAP05P1 stabilizationjurisdiction
+V_G1_LOCATION_MAP05P2 outlandzone
+
+// map 6 prison
+V_G1_LOCATION_MAP06P0 externaljurisdiction
+V_G1_LOCATION_MAP06P1 stabilizationjurisdiction
+
+// map 7 c17
+V_G1_LOCATION_MAP07P0 residentialblock
+V_G1_LOCATION_MAP07P1 404zone
+V_G1_LOCATION_MAP07P2 distributionblock
+V_G1_LOCATION_MAP07P3 productionblock
+ 
+// map 8 citadel
+V_G1_LOCATION_MAP08P0 highpriorityregion
+V_G1_LOCATION_MAP08P1 terminalrestrictionzone
+V_G1_LOCATION_MAP08P2 controlsection
+
+
+
+// player names by mapname (remembered) (duplicated for metropolice and overwatch)
+
+V_G2_SUSPECT_MAP00P0 subject
+
+V_G2_SUSPECT_MAP01P0 citizen
+V_G2_SUSPECT_MAP01P1 UPI
+V_G2_SUSPECT_MAP01P2 subject
+
+V_G2_SUSPECT_MAP02P0 subject
+V_G2_SUSPECT_MAP02P1 noncitizen
+V_G2_SUSPECT_MAP02P2 sociocide
+V_G2_SUSPECT_MAP02P3 anticitizen
+
+V_G2_SUSPECT_MAP03P0 anticitizen
+V_G2_SUSPECT_MAP03P1 subject
+
+V_G2_SUSPECT_MAP04P0 freeman
+V_G2_SUSPECT_MAP04P1 subject
+V_G2_SUSPECT_MAP04P2 anticitizen
+
+V_G2_SUSPECT_MAP05P0 freeman
+V_G2_SUSPECT_MAP05P1 sociocide
+
+V_G2_SUSPECT_MAP06P0 freeman
+V_G2_SUSPECT_MAP06P1 infection
+
+V_G2_SUSPECT_MAP07P0 freeman
+
+V_G2_SUSPECT_MAP08P0 freeman
+
+// rnd address suffix (remembered) (duplicated for metropolice and overwatch)
+
+V_G3_NUMBP0 zero 
+V_G3_NUMBP1 one
+V_G3_NUMBP2 two
+V_G3_NUMBP3 three
+V_G3_NUMBP4 four
+V_G3_NUMBP5 five
+V_G3_NUMBP6 six
+V_G3_NUMBP7 seven
+V_G3_NUMBP8 eight
+V_G3_NUMBP9 nine
+
+
+// sequential global numbers, used for counting enemies down (duplicated for metropolice and overwatch)
+
+V_SEQG0_NBRP0 one {Len 0.4}
+V_SEQG0_NBRP1 two {Len 0.4}
+V_SEQG0_NBRP2 three {Len 0.4}
+V_SEQG0_NBRP3 four {Len 0.4}
+V_SEQG0_NBRP4 five {Len 0.4}
+V_SEQG0_NBRP5 six {Len 0.4}
+V_SEQG0_NBRP6 seven {Len 0.4}
+V_SEQG0_NBRP7 eight {Len 0.4}
+V_SEQG0_NBRP8 nine {Len 0.4}
+V_SEQG0_NBRP9 ten {Len 0.4}
+V_SEQG0_NBRP10 eleven {Len 0.4}
+V_SEQG0_NBRP11 twelve {Len 0.4}
+V_SEQG0_NBRP12 thirteen {Len 0.4}
+V_SEQG0_NBRP13 fourteen {Len 0.4}
+V_SEQG0_NBRP14 fifteen {Len 0.4}
+V_SEQG0_NBRP15 sixteen {Len 0.4}
+V_SEQG0_NBRP16 seventeen {Len 0.4}
+V_SEQG0_NBRP17 eighteen {Len 0.4}
+V_SEQG0_NBRP18 nineteen {Len 0.4}
+V_SEQG0_NBRP19 twenty {Len 0.4}
+
+// numbers, must be in order (duplicated for metropolice and overwatch)
+
+V_NUMBERSP0 zero {Len 0.4}
+V_NUMBERSP1 one {Len 0.4}
+V_NUMBERSP2 two {Len 0.4}
+V_NUMBERSP3 three {Len 0.4}
+V_NUMBERSP4 four {Len 0.4}
+V_NUMBERSP5 five {Len 0.4}
+V_NUMBERSP6 six {Len 0.4}
+V_NUMBERSP7 seven {Len 0.4}
+V_NUMBERSP8 eight {Len 0.4}
+V_NUMBERSP9 nine {Len 0.4}
+V_NUMBERSP10 ten {Len 0.4}
+V_NUMBERSP11 eleven {Len 0.4}
+V_NUMBERSP12 twelve {Len 0.4}
+V_NUMBERSP13 thirteen {Len 0.4}
+V_NUMBERSP14 fourteen {Len 0.4}
+V_NUMBERSP15 fifteen {Len 0.4}
+V_NUMBERSP16 sixteen {Len 0.4}
+V_NUMBERSP17 seventeen {Len 0.4}
+V_NUMBERSP18 eighteen {Len 0.4}
+V_NUMBERSP19 nineteen {Len 0.4}
+V_NUMBERSP20 twenty {Len 0.4}
+V_NUMBERSP21 thirty {Len 0.4}
+V_NUMBERSP22 fourty {Len 0.4}
+V_NUMBERSP23 fifty {Len 0.4}
+V_NUMBERSP24 sixty {Len 0.4}
+V_NUMBERSP25 seventy {Len 0.4}
+V_NUMBERSP26 eighty {Len 0.4}
+V_NUMBERSP27 ninety {Len 0.4}
+V_NUMBERSP28 onehundred {Len 0.4}
+V_NUMBERSP29 twohundred {Len 0.4}
+V_NUMBERSP30 threehundred {Len 0.4}
+
+// random codes, player is criminal (duplicated for metropolice and overwatch)
+
+V_RNDCODECRIM_P0 criminaltrespass63
+V_RNDCODECRIM_P1 nonsanctionedarson51
+V_RNDCODECRIM_P2 posession69
+V_RNDCODECRIM_P3 publicnoncompliance507
+V_RNDCODECRIM_P4 recklessoperation99
+V_RNDCODECRIM_P5 resistingpacification148
+V_RNDCODECRIM_P6 riot404
+V_RNDCODECRIM_P7 fugitive17f
+V_RNDCODECRIM_P8 weapon94
+V_RNDCODECRIM_P9 alarms62
+V_RNDCODECRIM_P10 assault243
+V_RNDCODECRIM_P11 illegalcarrying95
+V_RNDCODECRIM_P12 unlawfulentry603
+
+// random codes, player is not criminal (duplicated for metropolice and overwatch)
+
+V_RNDCODEPLR_P0 attemptedcrime27
+V_RNDCODEPLR_P1 disengaged647e
+V_RNDCODEPLR_P2 disturbingunity415
+V_RNDCODEPLR_P3 disturbancemental10-103m
+V_RNDCODEPLR_P4 illegalinoperation63s
+V_RNDCODEPLR_P5 threattoproperty51b
+
+// random action codes (duplicated for metropolice and overwatch)
+
+V_RNDACTP0 pressure
+V_RNDACTP1 document
+V_RNDACTP2 restrict
+V_RNDACTP3 intercede
+V_RNDACTP4 preserve
+V_RNDACTP5 search
+V_RNDACTP6 suspend
+V_RNDACTP7 investigate
+V_RNDACTP8 interlock
+V_RNDACTP9 isolate
+V_RNDACTP10 administer
+V_RNDACTP11 cauterize
+V_RNDACTP12 inject
+V_RNDACTP13 innoculate
+V_RNDACTP14 examine
+V_RNDACTP15 apply
+V_RNDACTP16 prosecute
+V_RNDACTP17 serve
+V_RNDACTP18 sterilize
+V_RNDACTP19 amputate
+V_RNDACTP20 lock
+
+
+// random number
+V_RNDNUMP0 zero {Len 0.4}
+V_RNDNUMP1 one {Len 0.4}
+V_RNDNUMP2 two {Len 0.4}
+V_RNDNUMP3 three {Len 0.4}
+V_RNDNUMP4 four {Len 0.4}
+V_RNDNUMP5 five {Len 0.4}
+V_RNDNUMP6 six {Len 0.4}
+V_RNDNUMP7 seven {Len 0.4}
+V_RNDNUMP8 eight {Len 0.4}
+V_RNDNUMP9 nine {Len 0.4}
+
+// unit names, remembered by speaker  (duplicated for metropolice and overwatch)
+
+V_MYNAMEP0 defender 
+V_MYNAMEP1 hero 
+V_MYNAMEP2 jury 
+V_MYNAMEP3 king 
+V_MYNAMEP4 line 
+V_MYNAMEP5 patrol 
+V_MYNAMEP6 quick 
+V_MYNAMEP7 roller 
+V_MYNAMEP8 stick 
+V_MYNAMEP9 tap 
+V_MYNAMEP10 union 
+V_MYNAMEP11 victor 
+V_MYNAMEP12 xray 
+V_MYNAMEP13 yellow 
+V_MYNAMEP14 vice
+
+
+// unit numbers, remembered by speaker: (duplicated for metropolice and overwatch)
+
+V_MYNUMP0 one
+V_MYNUMP1 two
+V_MYNUMP2 three
+V_MYNUMP3 four
+V_MYNUMP4 five
+V_MYNUMP5 six
+V_MYNUMP6 seven
+V_MYNUMP7 eight
+V_MYNUMP8 nine
+//V_MYNUMP9 15w40 
+//V_MYNUMP10 15w3
+//V_MYNUMP11 15r9
+//V_MYNUMP12 15l30
+//V_MYNUMP13 15w2
+//V_MYNUMP14 13x2
+//V_MYNUMP15 11x25
+//V_MYNUMP16 9l14
+//V_MYNUMP17 6r3
+
+//
+// Death sounds
+
+METROPOLICE_DIE0 tak/mps/getting_damage/death/(v100) death1 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE1 tak/mps/getting_damage/death/(v100) death2 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE2 tak/mps/getting_damage/death/(v100) death3 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE3 tak/mps/getting_damage/death/(v100) death4 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE4 tak/mps/getting_damage/death/(v100) death5 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE5 tak/mps/getting_damage/death/(v100) death6 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE6 tak/mps/getting_damage/death/(v100) death7 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE7 tak/mps/getting_damage/death/(v100) death8 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE8 tak/mps/getting_damage/death/(v100) death9 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE9 tak/mps/getting_damage/death/(v100) death10 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE10 tak/mps/getting_damage/death/(v100) death11 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE11 tak/mps/getting_damage/death/(v100) death12 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE12 tak/mps/getting_damage/death/(v100) death13 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE13 tak/mps/getting_damage/death/(v100) death14 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE14 tak/mps/getting_damage/death/(v100) death15 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE15 tak/mps/getting_damage/death/(v100) death16 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE16 tak/mps/getting_damage/death/(v100) death17 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE17 tak/mps/getting_damage/death/(v100) death18 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE18 tak/mps/getting_damage/death/(v100) death19 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE19 tak/mps/getting_damage/death/(v100) death20 {Len 1.1 closecaption NPC_Combine.Death}
+METROPOLICE_DIE20 tak/mps/getting_damage/death/(v100) death21 {Len 1.1 closecaption NPC_Combine.Death}
+//
+// Alert sounds (unused currently) - see monst_player
+//
+METROPOLICE_GO_ALERT0 tak/mps/foundenemy/heli/(v100) heli_found1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT1 tak/mps/foundenemy/heli/(v100) heli_found2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT2 tak/mps/foundenemy/heli/(v100) heli_found6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT3 tak/mps/foundenemy/heli/(v100) heli_found7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_GO_ALERT4 tak/mps/foundenemy/heli/(v100) heli_found8 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// location-specific alert sounds (unused currently)
+
+METROPOLICE_CANAL_ALERT0 npc/metropolice/vo/(v100) on1 suspectinstormrunoff V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_UPTHERE_ALERT0 npc/metropolice/vo/(v100) on1 hesupthere off4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_WATER_ALERT0 npc/metropolice/vo/(v100) on1 suspectusingrestrictedcanals V_G1_LOCATION_MAP__P V_G3_NUMBP off3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Pain sounds
+//
+METROPOLICE_PAIN0 tak/mps/getting_damage/(v80) pain1 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN1 tak/mps/getting_damage/(v80) pain2 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN2 tak/mps/getting_damage/(v80) pain5 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN3 tak/mps/getting_damage/(v80) pain6 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN4 tak/mps/getting_damage/(v80) pain8 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN5 tak/mps/getting_damage/(v80) pain10 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN6 tak/mps/getting_damage/(v80) pain11 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN7 tak/mps/getting_damage/(v80) pain13 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN8 tak/mps/getting_damage/(v80) pain14 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN9 tak/mps/getting_damage/(v80) pain15 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN10 tak/mps/getting_damage/(v80) pain17 {Len 0.30 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN11 tak/mps/getting_damage/painhigh/(v80) painhigh4 {Len 0.30 closecaption NPC_Combine.Pain}
+
+// Pain sounds (I'm still over 90% health, used only once)
+
+METROPOLICE_PAIN_LIGHT0 tak/mps/getting_damage/(v80) pain3 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT1 tak/mps/getting_damage/(v80) pain4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT2 tak/mps/getting_damage/(v80) pain7 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT3 tak/mps/getting_damage/(v80) pain9 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT4 tak/mps/getting_damage/(v80) pain12 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT5 tak/mps/getting_damage/(v80) pain16 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT5 tak/mps/getting_damage/painhigh/(v80) underfire4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_LIGHT5 tak/mps/getting_damage/painhigh/(v80) underfire5 {Len 1.5 closecaption NPC_Combine.Pain}
+
+
+// Pain sounds (I'm under 25% health for the first time, used only once)
+
+
+METROPOLICE_PAIN_HEAVY0 tak/mps/getting_damage/fear/(v90) fear1 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY1 tak/mps/getting_damage/fear/(v90) fear2 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY2 tak/mps/getting_damage/fear/(v90) fear3 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY3 tak/mps/getting_damage/fear/(v90) fear4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY4 tak/mps/getting_damage/fear/(v90) fear5 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY5 tak/mps/getting_damage/fear/(v90) fear6 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY6 tak/mps/getting_damage/fear/(v90) fear7 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY7 tak/mps/getting_damage/fear/(v90) fear8 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY8 tak/mps/getting_damage/yell/(v90) yell2 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY9 tak/mps/getting_damage/yell/(v90) yell4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY10 tak/mps/getting_damage/yell/(v90) yell6 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY11 tak/mps/getting_damage/yell/(v90) yell8 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY12 tak/mps/getting_damage/painhigh/(v90) painhigh2 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY13 tak/mps/getting_damage/painhigh/(v90) painhigh3 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY14 tak/mps/getting_damage/painhigh/(v90) painhigh5 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY15 tak/mps/getting_damage/painhigh/(v90) painhigh7 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY16 tak/mps/getting_damage/painhigh/(v90) painhigh8 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY17 tak/mps/getting_damage/painhigh/(v90) painhigh9 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY18 tak/mps/getting_damage/painhigh/(v90) painhigh12 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY19 tak/mps/getting_damage/painhigh/(v90) painhigh15 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY20 tak/mps/getting_damage/painhigh/(v90) painhigh16 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY21 tak/mps/getting_damage/painhigh/(v90) painhigh17 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY22 tak/mps/getting_damage/painhigh/(v90) painhigh18 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_PAIN_HEAVY23 tak/mps/getting_damage/painhigh/(v90) painhigh16 {Len 1.5 closecaption NPC_Combine.Pain}
+
+//
+// Idle sounds (precriminal)
+//
+
+// Simple idle sound, always used when not in squad, sometimes used when in squad
+METROPOLICE_IDLE0 tak/mps/idle/(v75) idle1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE1 tak/mps/idle/(v75) idle2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE2 tak/mps/idle/(v75) idle3 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE3 tak/mps/idle/(v75) idle4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE4 tak/mps/idle/(v75) idle5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE5 tak/mps/idle/(v75) idle6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE6 tak/mps/idle/(v75) idle7 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE7 tak/mps/idle/(v75) idle8 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE8 tak/mps/idle/(v75) idle9 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE9 tak/mps/idle/(v75) idle10 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE10 tak/mps/idle/(v75) idle11 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE11 tak/mps/idle/(v75) idle12 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE12 tak/mps/idle/(v75) idle13 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE13 tak/mps/idle/(v75) idle14 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE14 tak/mps/idle/(v75) idle15 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE15 tak/mps/idle/(v75) idle16 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE16 tak/mps/idle/(v75) idle17 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE17 tak/mps/idle/(v75) idle18 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE18 tak/mps/idle/(v75) idle19 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE19 tak/mps/idle/(v75) idle20 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE20 tak/mps/idle/(v75) idle21 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+
+// Check with squadmates
+METROPOLICE_IDLE_CHECK0 tak/mps/backup/(v70) attention1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK1 tak/mps/backup/(v70) attention2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK2 tak/mps/backup/(v70) attention3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK3 tak/mps/backup/(v70) attention4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK4 tak/mps/needsomething/(v70) needammo1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK5 tak/mps/needsomething/(v70) needammo2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK6 tak/mps/needsomething/(v70) needammo3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK7 tak/mps/needsomething/(v70) needammo4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK8 tak/mps/needsomething/(v70) needammo5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK9 tak/mps/needsomething/(v70) needammo6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK10 tak/mps/needsomething/(v70) needammo7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK11 tak/mps/needsomething/(v70) needammo8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK12 tak/mps/needsomething/(v70) needweapon1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK13 tak/mps/needsomething/(v70) needweapon2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK14 tak/mps/needsomething/(v70) needweapon3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK15 tak/mps/needsomething/(v70) needweapon4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK16 tak/mps/needsomething/(v70) needweapon5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+
+// Response to the check with squadmates
+METROPOLICE_IDLE_CLEAR0 tak/mps/affirmative/(v70) affirmative1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR1 tak/mps/affirmative/(v70) affirmative2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR2 tak/mps/affirmative/(v70) affirmative3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR3 tak/mps/affirmative/(v70) affirmative4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR4 tak/mps/affirmative/(v70) affirmative5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR5 tak/mps/affirmative/(v70) affirmative6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR6 tak/mps/affirmative/(v70) affirmative7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR7 tak/mps/affirmative/(v70) affirmative8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR8 tak/mps/affirmative/(v70) affirmative9 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR9 tak/mps/affirmative/(v70) affirmative10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Ask a question to squadmates
+METROPOLICE_IDLE_QUEST0 tak/mps/searching/smth/(v70) iveseensmth1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST1 tak/mps/searching/smth/(v70) iveseensmth2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST2 tak/mps/searching/smth/(v70) iveseensmth3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST3 tak/mps/searching/smth/(v70) iveseensmth4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST4 tak/mps/searching/smth/(v70) iveseensmth5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST5 tak/mps/searching/smth/(v70) iveseensmth6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST6 tak/mps/searching/smth/(v70) iveseensmth7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST7 tak/mps/searching/smth/(v70) iveseensmth8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST8 tak/mps/searching/smth/(v70) iveheardsmth1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST9 tak/mps/searching/smth/(v70) iveheardsmth2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST10 tak/mps/searching/smth/(v70) iveheardsmth3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST11 tak/mps/searching/smth/(v70) iveheardsmth4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST12 tak/mps/searching/smth/(v70) iveheardsmth5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST13 tak/mps/searching/smth/(v70) iveheardsmth6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST14 tak/mps/searching/smth/(v70) iveheardsmth7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST15 tak/mps/searching/smth/(v70) iveheardsmth8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST16 tak/mps/searching/smth/(v70) iveheardsmth9 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST17 tak/mps/searching/smth/(v70) iveheardsmth10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST18 tak/mps/searching/smth/(v70) iveheardsmth11 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST19 tak/mps/searching/smth/(v70) iveheardsmth12 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST20 tak/mps/searching/smth/(v70) iveheardsmth13 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST21 tak/mps/searching/smth/(v70) iveheardsmth14 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST22 tak/mps/searching/smth/(v70) iveheardsmth15 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST23 tak/mps/searching/smth/(v70) iveheardsmth16 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST24 tak/mps/searching/smth/(v70) iveheardsmth17 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST25 tak/mps/searching/smth/(v70) iveheardsmth18 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST26 tak/mps/searching/smth/(v70) iveheardsmth19 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST27 tak/mps/searching/smth/(v70) iveheardsmth20 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Answer to a question asked
+METROPOLICE_IDLE_ANSWER0 tak/mps/noonehere_relax/(v70) noonehere1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER1 tak/mps/noonehere_relax/(v70) noonehere2 {Len 1.5}
+METROPOLICE_IDLE_ANSWER2 tak/mps/noonehere_relax/(v70) noonehere3 {Len 1.5}
+METROPOLICE_IDLE_ANSWER3 tak/mps/noonehere_relax/(v70) noonehere4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER4 tak/mps/noonehere_relax/(v70) noonehere5 {Len 1.5}
+METROPOLICE_IDLE_ANSWER5 tak/mps/noonehere_relax/(v70) noonehere6 {Len 1.5}
+METROPOLICE_IDLE_ANSWER6 tak/mps/noonehere_relax/(v70) noonehere7 {Len 1.5}
+METROPOLICE_IDLE_ANSWER7 tak/mps/noonehere_relax/(v70) noonehere8 {Len 1.5}
+METROPOLICE_IDLE_ANSWER8 tak/mps/noonehere_relax/(v70) noonehere9 {Len 1.5}
+METROPOLICE_IDLE_ANSWER9 tak/mps/noonehere_relax/(v70) noonehere10 {Len 1.5}
+METROPOLICE_IDLE_ANSWER10 tak/mps/noonehere_relax/(v70) noonehere11 {Len 1.5}
+METROPOLICE_IDLE_ANSWER11 tak/mps/noonehere_relax/(v70) noonehere12 {Len 1.5}
+METROPOLICE_IDLE_ANSWER12 tak/mps/noonehere_relax/(v70) noonehere13 {Len 1.5}
+METROPOLICE_IDLE_ANSWER13 tak/mps/noonehere_relax/(v70) noonehere14 {Len 1.5}
+METROPOLICE_IDLE_ANSWER14 tak/mps/noonehere_relax/(v70) noonehere15 {Len 1.5}
+METROPOLICE_IDLE_ANSWER15 tak/mps/noonehere_relax/(v70) noonehere16 {Len 1.5}
+METROPOLICE_IDLE_ANSWER16 tak/mps/noonehere_relax/(v70) noonehere17 {Len 1.5}
+METROPOLICE_IDLE_ANSWER17 tak/mps/noonehere_relax/(v70) noonehere18 {Len 1.5}
+METROPOLICE_IDLE_ANSWER18 tak/mps/noonehere_relax/(v70) noonehere19 {Len 1.5}
+METROPOLICE_IDLE_ANSWER19 tak/mps/noonehere_relax/(v70) noonehere20 {Len 1.5}
+METROPOLICE_IDLE_ANSWER20 tak/mps/noonehere_relax/(v70) noonehere21 {Len 1.5}
+
+// Player is near, cop is harassing him
+METROPOLICE_IDLE_HARASS_PLAYER0 tak/mps/comandeer/(v70) gethim1 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER1 tak/mps/comandeer/(v70) gethim2 {Len 1.5}
+METROPOLICE_IDLE_HARASS_PLAYER2 tak/mps/comandeer/(v70) gethim3 {Len 1.5}
+
+//
+// Idle sounds (criminal)
+//
+
+V_RNDPUNISHP0 permanentoffworld
+V_RNDPUNISHP1 immediateamputation
+V_RNDPUNISHP2 halfreproductioncredits
+V_RNDPUNISHP3 halfrankpoints
+
+// Simple idle sound, always used when not in squad, sometimes used when in squad
+METROPOLICE_IDLE_CR0 tak/mps/idle/(v75) idle1 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR1 tak/mps/idle/(v75) idle2 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR2 tak/mps/idle/(v75) idle3 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR3 tak/mps/idle/(v75) idle4 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR4 tak/mps/idle/(v75) idle5 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR5 tak/mps/idle/(v75) idle6 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR6 tak/mps/idle/(v75) idle7 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR7 tak/mps/idle/(v75) idle8 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR8 tak/mps/idle/(v75) idle9 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR9 tak/mps/idle/(v75) idle10 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR10 tak/mps/idle/(v75) idle11 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR11 tak/mps/idle/(v75) idle12 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR12 tak/mps/idle/(v75) idle13 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR13 tak/mps/idle/(v75) idle14 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR14 tak/mps/idle/(v75) idle15 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR15 tak/mps/idle/(v75) idle16 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR16 tak/mps/idle/(v75) idle17 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR17 tak/mps/idle/(v75) idle18 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR18 tak/mps/idle/(v75) idle19 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR19 tak/mps/idle/(v75) idle20 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CR20 tak/mps/idle/(v75) idle21 {Len 1.1 closecaption NPC_Combine.RadioChatter}
+
+// Check with squadmates
+METROPOLICE_IDLE_CHECK_CR0 tak/mps/backup/(v70) attention1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR1 tak/mps/backup/(v70) attention2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR2 tak/mps/backup/(v70) attention3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR3 tak/mps/backup/(v70) attention4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR4 tak/mps/needsomething/(v70) needammo1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR5 tak/mps/needsomething/(v70) needammo2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR6 tak/mps/needsomething/(v70) needammo3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR7 tak/mps/needsomething/(v70) needammo4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR8 tak/mps/needsomething/(v70) needammo5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR9 tak/mps/needsomething/(v70) needammo6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR10 tak/mps/needsomething/(v70) needammo7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR11 tak/mps/needsomething/(v70) needammo8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR12 tak/mps/needsomething/(v70) needweapon1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR13 tak/mps/needsomething/(v70) needweapon2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR14 tak/mps/needsomething/(v70) needweapon3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR15 tak/mps/needsomething/(v70) needweapon4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CHECK_CR16 tak/mps/needsomething/(v70) needweapon5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Response to the check with squadmates
+METROPOLICE_IDLE_CLEAR_CR0 tak/mps/affirmative/(v70) affirmative1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR1 tak/mps/affirmative/(v70) affirmative2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR2 tak/mps/affirmative/(v70) affirmative3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR3 tak/mps/affirmative/(v70) affirmative4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR4 tak/mps/affirmative/(v70) affirmative5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR5 tak/mps/affirmative/(v70) affirmative6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR6 tak/mps/affirmative/(v70) affirmative7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR7 tak/mps/affirmative/(v70) affirmative8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR8 tak/mps/affirmative/(v70) affirmative9 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_CLEAR_CR9 tak/mps/affirmative/(v70) affirmative10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Ask a question to squadmates
+METROPOLICE_IDLE_QUEST_CR0 tak/mps/searching/smth/(v70) iveseensmth1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR1 tak/mps/searching/smth/(v70) iveseensmth2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR2 tak/mps/searching/smth/(v70) iveseensmth3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR3 tak/mps/searching/smth/(v70) iveseensmth4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR4 tak/mps/searching/smth/(v70) iveseensmth5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR5 tak/mps/searching/smth/(v70) iveseensmth6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR6 tak/mps/searching/smth/(v70) iveseensmth7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR7 tak/mps/searching/smth/(v70) iveseensmth8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR8 tak/mps/searching/smth/(v70) iveheardsmth1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR9 tak/mps/searching/smth/(v70) iveheardsmth2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR10 tak/mps/searching/smth/(v70) iveheardsmth3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR11 tak/mps/searching/smth/(v70) iveheardsmth4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR12 tak/mps/searching/smth/(v70) iveheardsmth5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR13 tak/mps/searching/smth/(v70) iveheardsmth6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR14 tak/mps/searching/smth/(v70) iveheardsmth7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR15 tak/mps/searching/smth/(v70) iveheardsmth8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR16 tak/mps/searching/smth/(v70) iveheardsmth9 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR17 tak/mps/searching/smth/(v70) iveheardsmth10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR18 tak/mps/searching/smth/(v70) iveheardsmth11 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR19 tak/mps/searching/smth/(v70) iveheardsmth12 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR20 tak/mps/searching/smth/(v70) iveheardsmth13 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR21 tak/mps/searching/smth/(v70) iveheardsmth14 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR22 tak/mps/searching/smth/(v70) iveheardsmth15 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR23 tak/mps/searching/smth/(v70) iveheardsmth16 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR24 tak/mps/searching/smth/(v70) iveheardsmth17 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR25 tak/mps/searching/smth/(v70) iveheardsmth18 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR26 tak/mps/searching/smth/(v70) iveheardsmth19 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_IDLE_QUEST_CR27 tak/mps/searching/smth/(v70) iveheardsmth20 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// Answer to a question asked
+METROPOLICE_IDLE_ANSWER_CR0 tak/mps/noonehere_relax/(v70) noonehere1 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR1 tak/mps/noonehere_relax/(v70) noonehere2 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR2 tak/mps/noonehere_relax/(v70) noonehere3 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR3 tak/mps/noonehere_relax/(v70) noonehere4 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR4 tak/mps/noonehere_relax/(v70) noonehere5 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR5 tak/mps/noonehere_relax/(v70) noonehere6 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR6 tak/mps/noonehere_relax/(v70) noonehere7 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR7 tak/mps/noonehere_relax/(v70) noonehere8 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR8 tak/mps/noonehere_relax/(v70) noonehere9 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR9 tak/mps/noonehere_relax/(v70) noonehere10 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR10 tak/mps/noonehere_relax/(v70) noonehere11 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR11 tak/mps/noonehere_relax/(v70) noonehere12 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR12 tak/mps/noonehere_relax/(v70) noonehere13 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR13 tak/mps/noonehere_relax/(v70) noonehere14 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR14 tak/mps/noonehere_relax/(v70) noonehere15 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR15 tak/mps/noonehere_relax/(v70) noonehere16 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR16 tak/mps/noonehere_relax/(v70) noonehere17 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR17 tak/mps/noonehere_relax/(v70) noonehere18 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR18 tak/mps/noonehere_relax/(v70) noonehere19 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR19 tak/mps/noonehere_relax/(v70) noonehere20 {Len 1.5}
+METROPOLICE_IDLE_ANSWER_CR20 tak/mps/noonehere_relax/(v70) noonehere21 {Len 1.5}
+
+//
+// Preciminal harrasment (amplifying in nastiness)
+//
+
+// These are done in sequence as the player persistently pesters the cops
+
+METROPOLICE_MOVE_ALONG_A0 npc/metropolice/vo/(v60) on1 movealong3 off1 {Len 1.5  closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_MOVE_ALONG_A1 npc/metropolice/vo/(v60) on1 move off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_MOVE_ALONG_A2 npc/metropolice/vo/(v60) on1 keepmoving off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+
+METROPOLICE_MOVE_ALONG_B0 npc/metropolice/vo/(v70) on1 Isaidmovealong off1 {Len  1.5closecaption NPC_MetroPolice.MoveAlong2}
+METROPOLICE_MOVE_ALONG_B1 npc/metropolice/vo/(v70) on2 youwantamalcomplianceverdict off3 {Len 1.5closecaption NPC_MetroPolice.MoveAlong2}
+//METROPOLICE_MOVE_ALONG_B2 npc/metropolice/vo/(v70) on1 moveaway off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+
+METROPOLICE_MOVE_ALONG_C0 npc/metropolice/vo/(v80) on2 level3civilprivacyviolator off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C1 npc/metropolice/vo/(v80) on2 malcompliant10107my1020 off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C2 npc/metropolice/vo/(v80) on2 preparingtojudge10-107 off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_MOVE_ALONG_C3 npc/metropolice/vo/(v80) on2 readytoprosecutefinalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong}
+
+// These also are done in sequence as the player persistently pesters the cops
+
+METROPOLICE_BACK_UP_A0 npc/metropolice/vo/(v60) on1 backup off1 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_BACK_UP_A1 npc/metropolice/vo/(v60) on1 getoutofhere off4 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+METROPOLICE_BACK_UP_A2 npc/metropolice/vo/(v60) on2 firstwarningmove off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong1}
+
+METROPOLICE_BACK_UP_B0 npc/metropolice/vo/(v70) on1 movebackrightnow off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+METROPOLICE_BACK_UP_B1 npc/metropolice/vo/(v70) on1 secondwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+//METROPOLICE_BACK_UP_B2 npc/metropolice/vo/(v70) on2 moveawayenforcementarea off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong2}
+
+METROPOLICE_BACK_UP_C0 npc/metropolice/vo/(v80) on2 issuingmalcompliantcitation off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C1 npc/metropolice/vo/(v80) on2 possiblelevel3civilprivacyviolator off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C2 npc/metropolice/vo/(v80) on1 finalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C3 npc/metropolice/vo/(v80) on2 preparingtojudge10-107 off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+METROPOLICE_BACK_UP_C4 npc/metropolice/vo/(v80) on2 readytoprosecutefinalwarning off3 {Len 1.5 closecaption NPC_MetroPolice.MoveAlong3}
+ 
+//
+// Baton
+//
+
+// Take out my baton
+METROPOLICE_ACTIVATE_BATON0 npc/metropolice/vo/(v100) on1 issuingmalcompliantcitation off3 {Len 1.5}
+METROPOLICE_ACTIVATE_BATON1 npc/metropolice/vo/(v100) on1 pacifying off4 {Len 1.5}
+METROPOLICE_ACTIVATE_BATON2 npc/metropolice/vo/(v100) on1 off3 {Len 1.5}
+
+// Put away my baton
+METROPOLICE_DEACTIVATE_BATON0 npc/metropolice/vo/(v100) on1 off3 {Len 1.5}
+
+//
+// I'm on fire! Yeouch!
+//
+
+METROPOLICE_ON_FIRE0 tak/mps/getting_damage/yell/(v100) yell2 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_ON_FIRE1 tak/mps/getting_damage/yell/(v100) yell4 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_ON_FIRE2 tak/mps/getting_damage/yell/(v100) yell6 {Len 1.5 closecaption NPC_Combine.Pain}
+METROPOLICE_ON_FIRE3 tak/mps/getting_damage/yell/(v100) yell8 {Len 1.5 closecaption NPC_Combine.Pain}
+
+
+//
+// Misc
+//
+
+// My enemy is behind cover; I'm shooting out his cover
+METROPOLICE_SHOOT_COVER0 tak/mps/comandeer/(v100) gethim4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER1 tak/mps/comandeer/(v100) gethim5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER2 tak/mps/comandeer/(v100) immovingin2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER3 tak/mps/comandeer/(v100) left2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER4 tak/mps/comandeer/(v100) right2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER5 tak/mps/comandeer/(v100) left3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_SHOOT_COVER6 tak/mps/comandeer/(v100) right3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// I'm moving more than 20ft to get into a new shooting position
+METROPOLICE_FLANK0 tak/mps/comandeer/(v100) immovingin1 {Len 1.5}
+METROPOLICE_FLANK1 tak/mps/comandeer/(v100) immovingin3 {Len 1.5}
+METROPOLICE_FLANK2 tak/mps/comandeer/(v100) gethim3 {Len 1.5}
+METROPOLICE_FLANK3 tak/mps/comandeer/(v100) left5 {Len 1.5}
+METROPOLICE_FLANK4 tak/mps/comandeer/(v100) left6 {Len 1.5}
+METROPOLICE_FLANK5 tak/mps/comandeer/(v100) right5 {Len 1.5}
+METROPOLICE_FLANK6 tak/mps/comandeer/(v100) right6 {Len 1.5}
+
+// I heard something
+METROPOLICE_HEARD_SOMETHING0 tak/mps/searching/smth/(v60) iveheardsmth5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING1 tak/mps/searching/smth/(v60) iveheardsmth6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING2 tak/mps/searching/smth/(v60) iveheardsmth12 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING3 tak/mps/searching/smth/(v60) iveheardsmth13 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING4 tak/mps/searching/smth/(v60) iveheardsmth14 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING5 tak/mps/searching/smth/(v60) iveheardsmth17 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING6 tak/mps/searching/smth/(v60) iveheardsmth18 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_HEARD_SOMETHING7 tak/mps/searching/smth/(v60) iveheardsmth20 {Len 1.5 closecaption NPC_Combine.Alert}
+
+V_RNDCHARGEP0 capitalmalcompliance
+V_RNDCHARGEP1 violationofcivictrust
+V_RNDCHARGEP2 promotingcommunalunrest
+V_RNDCHARGEP3 failuretocomply
+V_RNDCHARGEP4 level5anticivilactivity
+V_RNDCHARGEP5 destrutionofcpt
+V_RNDCHARGEP6 devisivesociocidal
+V_RNDCHARGEP7 incitingpopucide
+V_RNDCHARGES8 inciting404
+
+V_RNDJUDGEP0 immediateamputation
+V_RNDJUDGEP1 terminalprosecution
+V_RNDJUDGEP2 disassociationfromcivic
+
+
+// The player is significantly hurt
+METROPOLICE_PLAYERHIT0 tak/mps/combat/(v100) combat3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT1 tak/mps/combat/(v100) combat7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT2 tak/mps/combat/(v100) combat8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT3 tak/mps/combat/(v100) combat10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT4 tak/mps/combat/(v100) combat11 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT5 tak/mps/combat/(v100) combat12 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT6 tak/mps/combat/(v100) combat19 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT7 tak/mps/combat/(v100) combat21 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT8 tak/mps/combat/(v100) combat24 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT9 tak/mps/combat/(v100) combat32 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT10 tak/mps/combat/(v100) combat36 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT11 tak/mps/combat/(v100) combat41 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT12 tak/mps/combat/(v100) combat45 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT13 tak/mps/combat/(v100) combat_gr3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT14 tak/mps/combat/(v100) combat_gr6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT15 tak/mps/combat/(v100) combat_gr7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT16 tak/mps/combat/(v100) combat_gr11 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT17 tak/mps/combat/(v100) combat_gr17 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_PLAYERHIT18 tak/mps/combat/(v100) combat_gr20 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+//
+// Taking cover
+//
+
+// Taking cover because I have no ammo
+METROPOLICE_COVER_NO_AMMO0 tak/mps/needsomething/(v100) needammo2 {Len 1.5}
+METROPOLICE_COVER_NO_AMMO1 tak/mps/needsomething/(v100) needammo3 {Len 1.5}
+METROPOLICE_COVER_NO_AMMO2 tak/mps/needsomething/(v100) needammo4 {Len 1.5}
+METROPOLICE_COVER_NO_AMMO3 tak/mps/needsomething/(v100) needammo6 {Len 1.5}
+METROPOLICE_COVER_NO_AMMO4 tak/mps/needsomething/(v100) needammo7 {Len 1.5}
+
+// Taking cover because I have low ammo
+METROPOLICE_COVER_LOW_AMMO0 tak/mps/comandeer/(v100) immovingin1 {Len 1.5}
+METROPOLICE_COVER_LOW_AMMO1 tak/mps/comandeer/(v100) immovingin3 {Len 1.5}
+METROPOLICE_COVER_LOW_AMMO2 tak/mps/needsomething/(v100) needammo1 {Len 1.5}
+METROPOLICE_COVER_LOW_AMMO3 tak/mps/needsomething/(v100) needammo5 {Len 1.5}
+METROPOLICE_COVER_LOW_AMMO4 tak/mps/needsomething/(v100) needammo8 {Len 1.5}
+
+// Taking cover because I have taken heavy damage recently
+
+METROPOLICE_COVER_HEAVY_DAMAGE0 tak/mps/getting_damage/flashbanged/(v80) flashbang1 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE1 tak/mps/getting_damage/flashbanged/(v80) flashbang2 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE2 tak/mps/getting_damage/flashbanged/(v80) flashbang3 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE3 tak/mps/getting_damage/flashbanged/(v80) flashbang4 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE4 tak/mps/getting_damage/flashbanged/(v80) flashbang5 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE5 tak/mps/getting_damage/painhigh/(v80) painhigh15 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE6 tak/mps/getting_damage/painhigh/(v80) painhigh16 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE7 tak/mps/getting_damage/painhigh/(v80) painhigh17 {Len 1.5}
+METROPOLICE_COVER_HEAVY_DAMAGE8 tak/mps/getting_damage/painhigh/(v80) painhigh18 {Len 1.5}
+
+//
+// Lost/refound enemy
+//
+
+// (UNDONE?) I lost my enemy under 10 seconds ago
+METROPOLICE_LOST_SHORT0 tak/mps/enemyhiding/(v90) lost_enemy1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT1 tak/mps/enemyhiding/(v90) lost_enemy2 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT2 tak/mps/enemyhiding/(v90) lost_enemy3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT3 tak/mps/enemyhiding/(v90) lost_enemy4 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT4 tak/mps/enemyhiding/(v90) lost_enemy5 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT5 tak/mps/enemyhiding/(v90) lost_enemy7 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT6 tak/mps/enemyhiding/(v90) lost_enemy9 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT7 tak/mps/enemyhiding/(v90) lost_enemy12 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT8 tak/mps/enemyhiding/(v90) lost_enemy14 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT9 tak/mps/enemyhiding/(v90) lost_enemy15 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_SHORT10 tak/mps/enemyhiding/(v90) lost_enemy16 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// (UNDONE?) I lost my enemy over 10 seconds ago
+METROPOLICE_LOST_LONG0 tak/mps/enemyhiding/(v90) lost_enemy6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG1 tak/mps/enemyhiding/(v90) lost_enemy8 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG2 tak/mps/enemyhiding/(v90) lost_enemy10 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG3 tak/mps/enemyhiding/(v90) lost_enemy11 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG4 tak/mps/enemyhiding/(v90) lost_enemy13 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG5 tak/mps/enemyhiding/(v90) lost_enemy17 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG6 tak/mps/enemyhiding/(v90) lost_enemy18 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG7 tak/mps/enemyhiding/(v90) lost_enemy19 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG8 tak/mps/enemyhiding/(v90) lost_enemy20 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG9 tak/mps/enemyhiding/(v90) lost_enemy21 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG10 tak/mps/enemyhiding/(v90) lost_enemy22 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG11 tak/mps/searching/(v90) search_player1 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG12 tak/mps/searching/(v90) search_player3 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+METROPOLICE_LOST_LONG13 tak/mps/searching/(v90) search_player6 {Len 1.5 closecaption NPC_Combine.RadioChatter}
+
+// (UNDONE?) Just found enemy after lost long
+METROPOLICE_REFIND_ENEMY0 tak/mps/foundenemy/(v100) foundyou1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY1 tak/mps/foundenemy/(v100) foundyou3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY2 tak/mps/foundenemy/(v100) foundyou8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY3 tak/mps/foundenemy/(v100) foundyou10 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY4 tak/mps/foundenemy/(v100) foundyou15 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY5 tak/mps/foundenemy/(v100) foundyou16 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY6 tak/mps/foundenemy/(v100) foundyou17 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_REFIND_ENEMY7 tak/mps/foundenemy/(v100) foundyou20 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Monster Alert - first contact and I'm the squad leader
+//
+
+METROPOLICE_MONST0 tak/mps/foundenemy/(v100) foundenemy21 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST1 tak/mps/searching/(v100) gogogo3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST2 tak/mps/searching/(v100) search_mutants4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST4 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST5 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_PLAYER0 tak/mps/foundenemy/(v100) foundyou5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER1 tak/mps/foundenemy/(v100) foundyou6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER2 tak/mps/foundenemy/(v100) foundyou7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER3 tak/mps/foundenemy/(v100) foundyou9 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER4 tak/mps/foundenemy/(v100) foundyou11 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER5 tak/mps/foundenemy/(v100) foundyou12 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER6 tak/mps/foundenemy/(v100) foundyou13 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER7 tak/mps/foundenemy/(v100) foundyou16 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER8 tak/mps/foundenemy/(v100) foundyou22 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER9 tak/mps/foundenemy/(v100) foundyou18 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER10 tak/mps/foundenemy/(v100) foundyou19 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER11 tak/mps/foundenemy/(v100) foundyou23 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER11 tak/mps/comandeer/(v100) gethim1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER11 tak/mps/comandeer/(v100) gethim2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER11 tak/mps/comandeer/(v100) gethim3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_PLAYER_VEHICLE0 tak/mps/foundenemy/heli/(v100) heli_found1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE1 tak/mps/foundenemy/heli/(v100) heli_found2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE2 tak/mps/foundenemy/heli/(v100) heli_found8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PLAYER_VEHICLE3 tak/mps/backup/(v100) attention4 callbackup1 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_BUGS0 tak/mps/backup/(v100) callbackup2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_BUGS1 tak/mps/searching/(v100) search_mutants4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_BUGS2 tak/mps/searching/(v100) gogogo3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_CITIZENS0 tak/mps/foundenemy/heli/(v100) heli_found6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS1 tak/mps/foundenemy/heli/(v100) heli_found8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS2 tak/mps/foundenemy/heli/(v100) heli_found3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS3 tak/mps/foundenemy/heli/(v100) heli_found2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS4 tak/mps/foundenemy/(v100) foundyou7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS5 tak/mps/foundenemy/(v100) foundyou9 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS6 tak/mps/foundenemy/(v100) foundyou13 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS7 tak/mps/foundenemy/(v100) foundyou21 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CITIZENS7 tak/mps/alarm/(v100) alarm6 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_CHARACTER0 tak/mps/foundenemy/(v100) foundyou5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER1 tak/mps/foundenemy/heli/(v100) heli_found6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER2 tak/mps/foundenemy/heli/(v100) heli_found7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER3 tak/mps/foundenemy/(v100) foundyou12 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER4 tak/mps/foundenemy/(v100) foundyou17 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER5 tak/mps/foundenemy/(v100) foundyou18 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER6 tak/mps/foundenemy/(v100) foundyou6 foundyou7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_CHARACTER7 tak/mps/foundenemy/(v100) foundyou9 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_ZOMBIES0 tak/mps/foundenemy/(v100) foundyou21 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES1 tak/mps/combat/(v100) combat_gr2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES2 tak/mps/combat/(v100) combat_gr6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES3 tak/mps/combat/(v100) combat_gr7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES4 tak/mps/combat/(v100) combat_gr8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES5 tak/mps/combat/(v100) combat_gr9 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES6 tak/mps/combat/(v100) combat2 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES7 tak/mps/combat/(v100) combat10 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_ZOMBIES8 tak/mps/combat/(v100) combat29 {Len 1.5 closecaption NPC_Combine.Alert}
+
+METROPOLICE_MONST_PARASITES0 tak/mps/wehavecasualties/(v100) mandown1 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PARASITES1 tak/mps/alarm/(v100) alarm7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PARASITES2 tak/mps/alarm/(v100) alarm8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PARASITES3 tak/mps/alarm/(v100) alarm3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MONST_PARASITES4 tak/mps/alarm/(v100) alarm1 alarm2 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// I killed a monster - by type
+//
+
+METROPOLICE_KILL_MONST0 tak/mps/combat/(v100) combat_gr4 {Len 1.5}
+METROPOLICE_KILL_MONST1 tak/mps/combat/(v100) combat_gr8 {Len 1.5}
+METROPOLICE_KILL_MONST2 tak/mps/combat/(v100) combat3 {Len 1.5}
+METROPOLICE_KILL_MONST3 tak/mps/searching/(v100) search1 {Len 1.5}
+METROPOLICE_KILL_MONST4 tak/mps/searching/(v100) search2 {Len 1.5}
+
+METROPOLICE_KILL_BUGS0 tak/mps/searching/(v100) search3 {Len 1.5}
+METROPOLICE_KILL_BUGS1 tak/mps/searching/(v100) search4 {Len 1.5}
+METROPOLICE_KILL_BUGS2 tak/mps/combat/(v100) combat7 {Len 1.5}
+METROPOLICE_KILL_BUGS3 tak/mps/combat/(v100) combat13 {Len 1.5}
+
+METROPOLICE_KILL_PLAYER0 tak/mps/combat/(v100) combat3 {Len 1.5}
+METROPOLICE_KILL_PLAYER1 tak/mps/combat/(v100) combat9 {Len 1.5}
+METROPOLICE_KILL_PLAYER2 tak/mps/combat/(v100) combat10 {Len 1.5}
+METROPOLICE_KILL_PLAYER3 tak/mps/combat/(v100) combat19 {Len 1.5}
+METROPOLICE_KILL_PLAYER4 tak/mps/combat/(v100) combat22 {Len 1.5}
+METROPOLICE_KILL_PLAYER5 tak/mps/combat/(v100) combat23 {Len 1.5}
+METROPOLICE_KILL_PLAYER6 tak/mps/combat/(v100) combat27 {Len 1.5}
+METROPOLICE_KILL_PLAYER7 tak/mps/combat/(v100) combat32 {Len 1.5}
+METROPOLICE_KILL_PLAYER8 tak/mps/combat/(v100) combat39 {Len 1.5}
+METROPOLICE_KILL_PLAYER9 tak/mps/combat/(v100) combat41 {Len 1.5}
+METROPOLICE_KILL_PLAYER10 tak/mps/combat/(v100) combat_gr3 {Len 1.5}
+METROPOLICE_KILL_PLAYER11 tak/mps/combat/(v100) combat_gr20 {Len 1.5}
+
+METROPOLICE_KILL_CITIZENS0 tak/mps/combat/(v100) combat_gr3 {Len 1.5}
+METROPOLICE_KILL_CITIZENS1 tak/mps/nooneher_relax/(v100) noonehere3 {Len 1.5}
+METROPOLICE_KILL_CITIZENS2 tak/mps/nooneher_relax/(v100) noonehere12 {Len 1.5}
+METROPOLICE_KILL_CITIZENS3 tak/mps/nooneher_relax/(v100) noonehere17 {Len 1.5}
+METROPOLICE_KILL_CITIZENS4 tak/mps/enemyhiding/(v100) lost_enemy12 {Len 1.5}
+METROPOLICE_KILL_CITIZENS5 tak/mps/enemyhiding/(v100) lost_enemy19 {Len 1.5}
+METROPOLICE_KILL_CITIZENS6 tak/mps/enemyhiding/(v100) lost_enemy2 {Len 1.5}
+
+METROPOLICE_KILL_CHARACTER0 tak/mps/combat/(v100) combat13 {Len 1.5}
+METROPOLICE_KILL_CHARACTER1 tak/mps/combat/(v100) combat_gr10 {Len 1.5}
+METROPOLICE_KILL_CHARACTER2 tak/mps/combat/(v100) combat17 {Len 1.5}
+METROPOLICE_KILL_CHARACTER3 tak/mps/combat/(v100) combat33 {Len 1.5}
+METROPOLICE_KILL_CHARACTER4 tak/mps/combat/(v100) combat35 {Len 1.5}
+
+METROPOLICE_KILL_ZOMBIES0 tak/mps/comandeer/(v100) retreat2 {Len 1.5}
+METROPOLICE_KILL_ZOMBIES1 tak/mps/affirmative/(v100) affirmative10 {Len 1.5}
+METROPOLICE_KILL_ZOMBIES2 tak/mps/grenade/(v100) grenade3 {Len 1.5}
+
+METROPOLICE_KILL_PARASITES0 tak/mps/comandeer/(v100) immovingin2 {Len 1.5}
+METROPOLICE_KILL_PARASITES1 tak/mps/foundenemy/(v100) foundyou8 {Len 1.5}
+METROPOLICE_KILL_PARASITES2 tak/mps/grenade/(v100) grenade2 {Len 1.5}
+METROPOLICE_KILL_PARASITES3 tak/mps/grenade/(v100) grenade5 {Len 1.5}
+
+
+//
+// Manhack sounds
+//
+
+// Deploying a manhack
+METROPOLICE_DEPLOY_MANHACK0 tak/mps/searching/(v90) gogogo1 {Len 1.5}
+METROPOLICE_DEPLOY_MANHACK1 tak/mps/searching/(v90) gogogo3 {Len 1.5}
+METROPOLICE_DEPLOY_MANHACK1 tak/mps/searching/(v90) gogogo7 {Len 1.5}
+
+// My manhack was killed
+METROPOLICE_MANHACK_KILLED0 tak/mps/getting_damage/painhigh/(v80) painhigh17 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MANHACK_KILLED1 tak/mps/getting_damage/painhigh/(v80) painhigh14 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MANHACK_KILLED2 tak/mps/getting_damage/painhigh/(v80) painhigh5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MANHACK_KILLED3 tak/mps/getting_damage/painhigh/(v80) painhigh3 {Len 1.5 closecaption NPC_Combine.Alert}
+
+//
+// Squad sounds
+//
+
+// A squadmate died
+METROPOLICE_MAN_DOWN0 tak/mps/getting_damage/painhigh/(v100) underfire4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN1 tak/mps/getting_damage/painhigh/(v100) underfire6 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN2 tak/mps/getting_damage/painhigh/(v100) underfire7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN3 tak/mps/getting_damage/painhigh/(v100) underfire8 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN4 tak/mps/wehavecasualties/(v100) mandown3 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN5 tak/mps/wehavecasualties/(v100) mandown5 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN6 tak/mps/wehavecasualties/(v100) mandown7 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN7 tak/mps/wehavecasualties/(v100) mandown4 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN8 tak/mps/combat/(v100) combat_gr13 {Len 1.5 closecaption NPC_Combine.Alert}
+METROPOLICE_MAN_DOWN9 tak/mps/combat/(v100) combat4 {Len 1.5 closecaption NPC_Combine.Alert}
+
+// My last squadmate died; I'm all that's left!
+METROPOLICE_LAST_OF_SQUAD0 tak/mps/getting_damage/painhigh/(v100) painhigh6 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD1 tak/mps/getting_damage/painhigh/(v100) painhigh9 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD2 tak/mps/getting_damage/painhigh/(v100) painhigh10 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD3 tak/mps/getting_damage/painhigh/(v100) painhigh11 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD4 tak/mps/getting_damage/painhigh/(v100) painhigh12 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD5 tak/mps/getting_damage/painhigh/(v100) painhigh16 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD6 tak/mps/getting_damage/painhigh/(v100) painhigh17 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD7 tak/mps/combat/(v100) combat_gr16 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD8 tak/mps/combat/(v100) combat5 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD9 tak/mps/combat/(v100) combat6 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD10 tak/mps/combat/(v100) combat12 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD11 tak/mps/combat/(v100) combat15 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD12 tak/mps/combat/(v100) combat16 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD13 tak/mps/combat/(v100) combat18 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD14 tak/mps/combat/(v100) combat25 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD15 tak/mps/combat/(v100) combat26 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD16 tak/mps/combat/(v100) combat43 {Len 1.5 closecaption NPC_Combine.Last}
+METROPOLICE_LAST_OF_SQUAD17 tak/mps/combat/(v100) combat44 {Len 1.5 closecaption NPC_Combine.Last}
+
+//
+// Danger sounds - by type
+//
+METROPOLICE_DANGER_GREN0 tak/mps/comandeer/(v100) retreat2 {Len 1.5}
+METROPOLICE_DANGER_GREN1 tak/mps/grenade/(v100) grenade_pl1 {Len 1.5}
+METROPOLICE_DANGER_GREN2 tak/mps/grenade/(v100) grenade_pl2 {Len 1.5}
+METROPOLICE_DANGER_GREN3 tak/mps/grenade/(v100) grenade_pl3 {Len 1.5}
+METROPOLICE_DANGER_GREN4 tak/mps/grenade/(v100) grenade_pl4 {Len 1.5}
+METROPOLICE_DANGER_GREN5 tak/mps/getting_damage/painhigh/(v100) painhigh15 {Len 1.5}
+METROPOLICE_DANGER_GREN6 tak/mps/getting_damage/painhigh/(v100) painhigh17 {Len 1.5}
+METROPOLICE_DANGER_GREN7 tak/mps/getting_damage/painhigh/(v100) painhigh10 {Len 1.5}
+METROPOLICE_DANGER_GREN8 tak/mps/getting_damage/painhigh/(v100) painhigh9 {Len 1.5}
+METROPOLICE_DANGER_GREN9 tak/mps/getting_damage/painhigh/(v100) underfire1 {Len 1.5}
+METROPOLICE_DANGER_GREN10 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5}
+METROPOLICE_DANGER_GREN11 tak/mps/getting_damage/painhigh/(v100) underfire3 {Len 1.5}
+
+METROPOLICE_DANGER_MANHACK0 tak/mps/getting_damage/painhigh/(v100) underfire1 {Len 1.5}
+METROPOLICE_DANGER_MANHACK1 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5}
+METROPOLICE_DANGER_MANHACK2 tak/mps/getting_damage/painhigh/(v100) underfire3 {Len 1.5}
+
+METROPOLICE_DANGER_VEHICLE0 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE1 tak/mps/getting_damage/painhigh/(v100) underfire6 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE2 tak/mps/getting_damage/painhigh/(v100) painhigh8 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE3 tak/mps/comandeer/(v100) immovingin1 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE4 tak/mps/comandeer/(v100) retreat2 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE5 tak/mps/comandeer/(v100) retreat1 {Len 1.5}
+METROPOLICE_DANGER_VEHICLE5 tak/mps/getting_damage/fear/(v100) fear6 {Len 1.5}
+
+METROPOLICE_DANGER0 tak/mps/getting_damage/fear/(v100) fear8 {Len 1.5}
+METROPOLICE_DANGER1 tak/mps/getting_damage/painhigh/(v100) underfire1 {Len 1.5}
+METROPOLICE_DANGER2 tak/mps/getting_damage/painhigh/(v100) underfire2 {Len 1.5}
+METROPOLICE_DANGER3 tak/mps/getting_damage/painhigh/(v100) underfire3 {Len 1.5}
+METROPOLICE_DANGER4 tak/mps/getting_damage/painhigh/(v100) underfire6 {Len 1.5}
+
+//
+// Func_tank behavior
+//
+
+// I'm moving to man a func_tank
+METROPOLICE_FT_APPROACH0 tak/mps/affirmative/(v80) affirmative5 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_APPROACH1 tak/mps/affirmative/(v80) affirmative6 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've just manned a func_tank
+METROPOLICE_FT_MOUNT0 tak/mps/affirmative/(v80) affirmative2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_MOUNT1 tak/mps/affirmative/(v80) affirmative4 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm manning a func_tank and am scanning for enemies
+METROPOLICE_FT_SCAN0 tak/mps/searching/(v80) search_player3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN1 tak/mps/searching/(v80) search_player1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN2 tak/mps/searching/(v80) search_player2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN3 tak/mps/searching/(v80) search_player6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN4 tak/mps/searching/(v80) search_mutants2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN5 tak/mps/searching/(v80) search_mutants3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_FT_SCAN6 tak/mps/searching/(v80) search_mutants7 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've dismounted the func_tank
+METROPOLICE_FT_DISMOUNT0 tak/mps/affirmative/(v80) affirmative10 {Len 1.5 closecaption NPC_Combine.Coord}
+
+
+//
+// Assault behavior
+//
+
+// I've hit my rally point, waiting to move out
+METROPOLICE_AS_HIT_RALLY0 tak/mps/affirmative/(v80) affirmative1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY1 tak/mps/affirmative/(v80) affirmative2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY2 tak/mps/affirmative/(v80) affirmative3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY3 tak/mps/affirmative/(v80) affirmative4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY4 tak/mps/affirmative/(v80) affirmative5 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY5 tak/mps/affirmative/(v80) affirmative6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY6 tak/mps/affirmative/(v80) affirmative8 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY7 tak/mps/affirmative/(v80) affirmative7 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_RALLY8 tak/mps/affirmative/(v80) affirmative10 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I've hit my assault point, waiting to move out
+METROPOLICE_AS_HIT_ASSAULT0 tak/mps/noonehere_relax/(v70) noonehere10 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_ASSAULT1 tak/mps/noonehere_relax/(v70) noonehere13 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_ASSAULT2 tak/mps/noonehere_relax/(v70) noonehere15 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_HIT_ASSAULT3 tak/mps/affirmative/(v80) affirmative10 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm squad leader, ordering squad to move to rally point
+METROPOLICE_AS_ADV_RALLY0 tak/mps/searching/(v70) gogogo1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY1 tak/mps/searching/(v70) gogogo3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY2 tak/mps/searching/(v70) gogogo4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY3 tak/mps/searching/(v70) gogogo5 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY4 tak/mps/searching/(v70) gogogo6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY5 tak/mps/searching/(v70) gogogo7 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_RALLY6 tak/mps/searching/(v70) search1 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm squad leader, ordering squad to move to assault point
+METROPOLICE_AS_ADV_ASSAULT0 tak/mps/searching/(v70) search_mutants3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT1 tak/mps/searching/(v70) gogogo7 search_mutants4 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT2 tak/mps/searching/(v70) search_mutants6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT3 tak/mps/searching/(v70) search_mutants7 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT4 tak/mps/searching/(v70) search_player2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT5 tak/mps/searching/(v70) search_player6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT6 tak/mps/searching/(v70) search_player8 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_AS_ADV_ASSAULT7 tak/mps/searching/(v70) search5 {Len 1.5 closecaption NPC_Combine.Coord}
+
+//
+// Standoff behavior
+//
+
+// I'm squad leader telling squad to go into standoff
+METROPOLICE_SO_BEGIN0 tak/mps/getting_damage/painhigh/(v100) underfire7 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN1 tak/mps/getting_damage/painhigh/(v100) underfire8 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN2 tak/mps/getting_damage/painhigh/(v100) underfire5 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_BEGIN3 tak/mps/getting_damage/painhigh/(v100) underfire4 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm squad leader telling squad to end standoff
+METROPOLICE_SO_END0 tak/mps/comandeer/(v100) right2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END1 tak/mps/comandeer/(v100) right3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END2 tak/mps/comandeer/(v100) left5 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END3 tak/mps/comandeer/(v100) left3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END4 tak/mps/comandeer/(v100) left2 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END5 tak/mps/comandeer/(v100) right1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_END6 tak/mps/comandeer/(v100) left1 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// I'm being forced to take cover
+METROPOLICE_SO_FORCE_COVER0 tak/mps/getting_damage/painhigh/(v100) painhigh13 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER1 tak/mps/getting_damage/painhigh/(v100) painhigh16 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER2 tak/mps/getting_damage/painhigh/(v100) underfire1 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER3 tak/mps/getting_damage/painhigh/(v100) underfire4 {Len 1.5}
+METROPOLICE_SO_FORCE_COVER4 tak/mps/getting_damage/painhigh/(v100) underfire8 {Len 1.5}
+
+// I'm peeking over cover to see if I can see the enemy
+METROPOLICE_SO_PEEK0 tak/mps/comandeer/(v100) left6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_PEEK1 tak/mps/comandeer/(v100) right6 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_PEEK2 tak/mps/comandeer/(v100) immovingin1 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_PEEK3 tak/mps/comandeer/(v100) immovingin3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_SO_PEEK4 tak/mps/comandeer/(v100) gethim5 {Len 1.5 closecaption NPC_Combine.Coord}
+
+
+//
+// First arrest encounter speech
+//
+
+// First cop who finds you tells you to freeze
+METROPOLICE_FREEZE0 tak/mps/foundenemy/(v100) foundyou2 {Len 1.5}
+METROPOLICE_FREEZE1 tak/mps/foundenemy/(v100) foundyou7 {Len 1.5}
+METROPOLICE_FREEZE2 tak/mps/foundenemy/(v100) foundyou9 {Len 1.5}
+METROPOLICE_FREEZE3 tak/mps/foundenemy/(v100) foundyou13 {Len 1.5}
+
+// First cop then tells his buddies to come over
+METROPOLICE_OVER_HERE0 tak/mps/backup/(v80) attention2 {Len 1.5}
+METROPOLICE_OVER_HERE1 tak/mps/backup/(v80) callbackup1 {Len 1.5}
+METROPOLICE_OVER_HERE2 tak/mps/backup/(v80) goforbackup6 {Len 1.5}
+
+// First cop tells his buddies the player is fleeing if he does
+METROPOLICE_HES_RUNNING0 tak/mps/alarm/(v100) attention4 {Len 1.5}
+METROPOLICE_HES_RUNNING1 tak/mps/alarm/(v100) alarm1 alarm2 {Len 1.5}
+METROPOLICE_HES_RUNNING2 tak/mps/alarm/(v100) alarm1 alarm5 {Len 1.5}
+
+// Other squad cops signal when they get in position
+METROPOLICE_ARREST_IN_POS0 tak/mps/affirmative/(v80) affirmative3 {Len 1.5 closecaption NPC_Combine.Coord}
+METROPOLICE_ARREST_IN_POS1 tak/mps/affirmative/(v80) affirmative10 {Len 1.5 closecaption NPC_Combine.Coord}
+
+// First cop tells his buddies to fire once they are all in position 
+METROPOLICE_TAKE_HIM_DOWN0 tak/mps/comandeer/(v100) immovingin2 {Len 2.5 closecaption NPC_Combine.Coord} 
+METROPOLICE_TAKE_HIM_DOWN1 tak/mps/alarm/(v100) alarm7 {Len 2.5 closecaption NPC_Combine.Coord}
+METROPOLICE_TAKE_HIM_DOWN2 tak/mps/alarm/(v100) alarm8 {Len 2.5 closecaption NPC_Combine.Coord}
+
+// Cop is hit by physics object thrown by player (not with physcannon)
+
+METROPOLICE_HIT_BY_PHYSOBJECT0 tak/mps/combat/(v99) combat2 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT1 tak/mps/combat/(v99) combat4 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT2 tak/mps/combat/(v99) combat10 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT3 tak/mps/combat/(v99) combat16 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT4 tak/mps/combat/(v99) combat20 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT5 tak/mps/combat/(v99) combat21 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT6 tak/mps/combat/(v99) combat24 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT7 tak/mps/combat/(v99) combat28 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT8 tak/mps/combat/(v99) combat34 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT9 tak/mps/combat/(v99) combat37 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT10 tak/mps/combat/(v99) combat38 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT11 tak/mps/combat/(v99) combat40 {Len 1.5}
+METROPOLICE_HIT_BY_PHYSOBJECT12 tak/mps/combat/(v99) combat42 {Len 1.5}
+
+//-----------------------------------------------------------------------------
+// METROPOLICE ENDS HERE
+//-----------------------------------------------------------------------------
+
+
+
+// HEV Suit
+
+// powerup
+
+HEV_AAx hl1/fvox/bell
+
+//HEV_logon, powerarmor_on, atmospherics_on,vitalsigns_on, automedic_on, weaponselect_on, munitionview_on, communications_on, safe_day {Len 41.76}
+
+//HEV_A0 hl1/fvox/bell, HEV_logon {Len 11.07}
+
+//HEV_A1 hl1/fvox/blip blip(p130) powermove_on {Len 3.71}
+//HEV_A2 hl1/fvox/blip blip powerarmor_on {Len 4.42}
+//HEV_A3 hl1/fvox/blip blip(p130) atmospherics_on {Len 4.41}
+//HEV_A4 hl1/fvox/blip blip vitalsigns_on boop, boop, boop {Len 5.28}
+//HEV_A5 hl1/fvox/blip blip(p130) munitionview_on {Len 3.84}
+//HEV_A6 hl1/fvox/blip blip communications_on {Len 3.59}
+//HEV_A7 hl1/fvox/blip blip(p70) weaponselect_on {Len 3.97}
+//HEV_A8 hl1/fvox/blip blip(p70) automedic_on {Len 3.77}
+//HEV_A9 hl1/fvox/fuzz power_level_is onehundred percent {Len 4.14}
+//HEV_A10 hl1/fvox/safe_day, bell {Len 3.66}
+
+// medical
+HEV_DEAD0 hl1/fvox/beep beep, beep beep, beep, beep, flatline {Len 6.29 closecaption HEV.Flatline}
+HEV_DEAD1 hl1/fvox/beep beep, beep beep, beep, flatline {Len 5.82 closecaption HEV.Flatline}
+
+HEV_MED0 hl1/fvox/(p140) boop, boop, boop, (p100) innsuficient_medical {Len 1.41 closecaption HEV.insufficient_medical}
+HEV_MED1 hl1/fvox/(p140) boop, boop, boop, (p100) automedic_on {Len 4.92 closecaption HEV.automedic_on}
+HEV_MED2 hl1/fvox/(p140) boop, boop, boop, (p100) administering_medical {Len 1.41 closecaption HEV.administering_medical}
+
+HEV_HEAL0 hl1/fvox/(p140) boop, boop, boop, (p100) wound_sterilized, blip(p130 v50), blip(p130 v40), hiss, morphine_shot {Len 7.03 closecaption HEV.sterilized_morphine}
+HEV_HEAL1 hl1/fvox/(p140) boop, boop, boop, (p100) torniquette_applied, bleeding_stopped {Len 7.03 closecaption HEV.torni_bleed}
+HEV_HEAL2 hl1/fvox/(p140) boop, boop, boop, (p100) bleeding_stopped {Len 3.66 closecaption HEV.bleeding_stopped}
+HEV_HEAL3 hl1/fvox/(p140) boop, boop, boop, (p100) blood_plasma {Len 4.02 closecaption HEV.blood_plasma}
+HEV_HEAL4 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, antitoxin_shot {Len 4.38 closecaption HEV.antitoxin_shot}
+HEV_HEAL5 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, antidote_shot {Len 4.17 closecaption HEV.antidote_shot}
+HEV_HEAL6 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, wound_sterilized {Len 4.16 closecaption HEV.wound_sterilized}
+HEV_HEAL7 hl1/fvox/(p140) boop, boop, boop, (p100) hiss, morphine_shot {Len 4.16 closecaption HEV.morphine_shot}
+HEV_HEAL8 hl1/fvox/(p140) boop, boop, boop, (p100) medical_repaired {Len 4.17 closecaption HEV.medical_repaired}
+
+
+HEV_DMG0 hl1/fvox/(p160) boop, boop, boop, (p100) minor_lacerations {Len 4.09 closecaption HEV.minor_lacerations}
+HEV_DMG1 hl1/fvox/(p160) boop, boop, boop, (p100) major_lacerations {Len 4.19 closecaption HEV.major_lacerations}
+HEV_DMG2 hl1/fvox/(p160) boop, boop, boop, (p100) internal_bleeding {Len 3.64 closecaption HEV.internal_bleeding}
+HEV_DMG3 hl1/fvox/(p160) boop, boop, boop, (p100) blood_toxins {Len 5.04 closecaption HEV.blood_toxins}
+HEV_DMG4 hl1/fvox/(p160) boop, boop, boop, (p100) minor_fracture {Len 3.67 closecaption HEV.minor_fracture}
+HEV_DMG5 hl1/fvox/(p160) boop, boop, boop, (p100) major_fracture {Len 3.67 closecaption HEV.major_fracture}
+HEV_DMG6 hl1/fvox/(p160) boop, boop, boop, (p100) blood_loss {Len 3.39 closecaption HEV.blood_loss}
+HEV_DMG7 hl1/fvox/(p140) boop, boop, boop, (p100) seek_medic {Len 3.92 closecaption HEV.seek_medic}
+
+
+
+HEV_HLTH0 hl1/fvox/(p120) beep, beep, (p100) health_dropping {Len 4.31 closecaption HEV.health_dropping}
+HEV_HLTH1 hl1/fvox/(p120) beep, beep, (p100) health_dropping2 {Len 3.68 closecaption HEV.health_dropping2}
+HEV_HLTH2 hl1/fvox/(p120) beep, beep, beep, (p100) health_critical {Len 4.32 closecaption HEV.health_critical}
+HEV_HLTH3 hl1/fvox/(p120) beep, beep, beep, (p100) near_death {Len 4.77 closecaption HEV.near_death}
+HEV_HLTH4 hl1/fvox/(p140) beep, beep, (p100) health_dropping2, evacuate_area {Len 5.93 closecaption HEV.health2_evac}
+HEV_HLTH5 hl1/fvox/(p140) beep, beep, beep, (p100) health_critical, evacuate_area {Len 6.52 closecaption HEV.health_crit_evac}
+HEV_HLTH6 hl1/fvox/(p140) beep, beep, beep, (p100) near_death, evacuate_area immediately {Len 8.22 closecaption HEV.near_death_evac}
+
+
+HEV_SHOCK hl1/fvox/(p120) beep, beep, (p100) warning, shock_damage {Len 4.05 closecaption HEV.shock_damage}
+HEV_FIRE hl1/fvox/(p120) beep, beep, (p100) warning, heat_damage {Len 4.77 closecaption HEV.heat_damage}
+
+// items
+HEV_AIM_ON hl1/fvox/blip targetting_system activated {Len 4.02 closecaption HEV.targetting_system_on}
+HEV_AIM_OFF hl1/fvox/blip targetting_system deactivated {Len 4.27 closecaption HEV.targetting_system_off}
+HEV_BATTERY hl1/fvox/blip get_battery acquired {Len 0.92}
+HEV_MEDKIT hl1/fvox/blip get_medkit(v80) {Len 0.11}
+
+HEV_PISTOL hl1/fvox/blip get_pistol acquired {Len 0.92}
+HEV_SHOTGUN hl1/fvox/blip get_shotgun {Len 0.11}
+HEV_GRENADE hl1/fvox/blip get_grenade acquired {Len 0.92}
+HEV_ASSAULT hl1/fvox/blip get_assault acquired {Len 0.92}
+HEV_44PISTOL hl1/fvox/blip get_44pistol acquired {Len 0.92}
+HEV_RPG hl1/fvox/blip get_rpg acquired {Len 0.92}
+HEV_SATCHEL hl1/fvox/blip get_satchel acquired {Len 0.92}
+HEV_TRIPMINE hl1/fvox/blip get_tripmine acquired {Len 0.92}
+HEV_HORNET hl1/fvox/blip get_alien_wpn {Len 0.11}
+HEV_SQUEEK hl1/fvox/blip get_alien_wpn {Len 0.11}
+HEV_EGON hl1/fvox/blip get_egon acquired {Len 0.92}
+HEV_GAUSS hl1/fvox/blip get_gauss acquired {Len 0.92}
+HEV_XBOW hl1/fvox/blip get_crossbow acquired {Len 0.92}
+
+HEV_9MM hl1/fvox/blip get_9mmclip acquired {Len 0.92}
+HEV_44AMMO hl1/fvox/blip get_44ammo acquired {Len 0.92}
+HEV_BUCKSHOT hl1/fvox/blip get_buckshot acquired {Len 0.92}
+HEV_BOLTS hl1/fvox/blip get_bolts acquired {Len 0.92}
+HEV_RPGAMMO hl1/fvox/blip get_rpgammo acquired {Len 0.92}
+HEV_AGRENADE hl1/fvox/blip get_assaultgren acquired {Len 0.92}
+HEV_EGONPOWER hl1/fvox/blip get_egonpower acquired {Len 0.92}
+
+// time
+
+//HEV_C1t hl1/fvox/bell time_is_now one AM
+//HEV_C13t hl1/fvox/bell time_is_now one PM
+
+// power levels
+
+HEV_D00 hl1/fvox/fuzz fuzz(p130), power_restored {Len 2.12 closecaption HEV.power_restored}
+HEV_D01 hl1/fvox/fuzz fuzz(p80), hev_shutdown {Len 4.99 closecaption HEV.hev_shutdown}
+
+HEV_0P hl1/fvox/fuzz fuzz, power_below five percent {Len 6.35}
+HEV_1P hl1/fvox/fuzz fuzz, power_restored(e30), ten percent {Len 2.75}
+HEV_2P hl1/fvox/fuzz fuzz, power_restored(e30), fifteen percent {Len 3.15}
+HEV_3P hl1/fvox/fuzz fuzz, power_restored(e30), twenty percent {Len 2.99}
+HEV_4P hl1/fvox/fuzz fuzz, power_restored(e30), twenty five percent {Len 3.87}
+HEV_5P hl1/fvox/fuzz fuzz, power_restored(e30), thirty percent {Len 3.04}
+HEV_6P hl1/fvox/fuzz fuzz, power_restored(e30), thirty five percent {Len 3.91}
+HEV_7P hl1/fvox/fuzz fuzz, power_restored(e30), fourty percent {Len 3.07}
+HEV_8P hl1/fvox/fuzz fuzz, power_restored(e30), fourty five percent {Len 3.95}
+HEV_9P hl1/fvox/fuzz fuzz, power_restored(e30), fifty percent {Len 3.17}
+HEV_10P hl1/fvox/fuzz fuzz, power_restored(e30), fifty five percent {Len 4.05}
+HEV_11P hl1/fvox/fuzz fuzz, power_restored(e30), sixty percent {Len 3.16}
+HEV_12P hl1/fvox/fuzz fuzz, power_restored(e30), sixty five percent {Len 4.04}
+HEV_13P hl1/fvox/fuzz fuzz, power_restored(e30), seventy percent {Len 3.12}
+HEV_14P hl1/fvox/fuzz fuzz, power_restored(e30), seventy five percent {Len 4.00}
+HEV_15P hl1/fvox/fuzz fuzz, power_restored(e30), eighty percent {Len 2.88}
+HEV_16P hl1/fvox/fuzz fuzz, power_restored(e30), eighty five percent {Len 3.76}
+HEV_17P hl1/fvox/fuzz fuzz, power_restored(e30), ninety percent {Len 3.12}
+HEV_18P hl1/fvox/fuzz fuzz, power_restored(e30), ninety five percent {Len 4.00}
+HEV_19P hl1/fvox/fuzz fuzz, power_level_is onehundred percent {Len 4.62}
+
+// weapon/ammo
+
+HEV_AMO0 hl1/fvox/blip ammo_depleted {Len 2.16 closecaption HEV.ammo_depleted}
+
+// suit
+
+HEV_V0 hl1/fvox/blip, voice_on {Len 3.17}
+HEV_V1 hl1/fvox/blip, voice_off {Len 3.06}
+
+
+HEV_E0 hl1/fvox/buzz buzz, armor_gone {Len 2.95 closecaption HEV.armor_gone}
+HEV_E1 hl1/fvox/buzz, armor_gone {Len 2.62 closecaption HEV.armor_gone}
+HEV_E2 hl1/fvox/buzz, hev_critical_fail {Len 4.75 closecaption HEV.hev_critical_fail}
+HEV_E3 hl1/fvox/buzz, hev_general_fail {Len 3.22 closecaption HEV.hev_general_fail}
+HEV_E4 hl1/fvox/buzz, hev_damage {Len 3.53 closecaption HEV.hev_damage}
+HEV_E5 hl1/fvox/buzz, powermove_overload {Len 4.98 closecaption HEV.powermove_overload}
+
+// time remaining countdown
+
+//HEV_F10t hl1/fvox/bell time_remaining ten seconds
+//HEV_F15t hl1/fvox/bell time_remaining fifteen seconds
+//HEV_F20t hl1/fvox/bell time_remaining twenty seconds
+//HEV_F30t hl1/fvox/bell time_remaining thirty seconds
+
+// detections
+
+HEV_DET0 hl1/fvox/blip blip blip, biohazard_detected {Len 3.67 closecaption HEV.biohazard_detected}
+HEV_DET1 hl1/fvox/blip blip blip, chemical_detected {Len 4.33 closecaption HEV.chemical_detected}
+HEV_DET2 hl1/fvox/blip blip blip, radiation_detected {Len 5.08 closecaption HEV.radiation_detected}
+HEV_DET3 hl1/fvox/blip blip blip, bio_reading {Len 2.93 closecaption HEV.bio_reading}
+HEV_DET4 hl1/fvox/blip blip blip, antitoxin_shot(e50), onehundred percent {Len 3.67 closecaption HEV.biohazard_detected}
+HEV_DET5 hl1/fvox/blip blip blip, antitoxin_shot(e25) radiation_detected(e50), onehundred percent {Len 5.37 closecaption HEV.radiation_detected}
+
+//HEV_GR0r hl1/fvox/range twenty meters(t60)
+//HEV_GR1r hl1/fvox/range nineteen meters
+//HEV_GR2r hl1/fvox/range eighteen meters
+
+
+
